@@ -1,0 +1,17 @@
+.border{
+    width: 220px;
+    height: 20px;
+    background: url("../../../../../../assets/Images/border.png") 50% 50% no-repeat;
+    background-size: 100%;
+    transform: rotate(-9.2deg);
+    top: 100px;
+    position: absolute;
+    left: -100px;
+}
+
+@media screen and (max-width: 488px) {
+    .border{
+        background-size: 68%;
+        top: 93px;
+    }
+}

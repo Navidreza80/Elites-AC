@@ -1,0 +1,142 @@
+.comments {
+    width: 23.82352941176471%;
+    height: 282px;
+    background: #F6F6F6;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.disliked {
+    width: 24px;
+    height: 24px;
+    background: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=0037ff') 50% 50% no-repeat !important;
+    background-size: cover !important;
+    rotate: 180deg;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.liked {
+    width: 24px;
+    height: 24px;
+    background: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=0037ff') 50% 50% no-repeat !important;
+    background-size: cover !important;
+    cursor: pointer;
+}
+
+.title {
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #707070;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.footer {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.likeAndDislikes {
+    width: 103px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.count {
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: black;
+}
+
+.like {
+    width: 24px;
+    height: 24px;
+    background: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=000000') 50% 50% no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.dislike {
+    width: 24px;
+    height: 24px;
+    background: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=0037ff') 50% 50% no-repeat;
+    background-size: cover;
+    rotate: 180deg;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 150px;
+    height: 41px;
+}
+
+.username {
+    font-family: DannaDemiBold;
+    font-size: 14px;
+    color: black;
+    width: 93px;
+    height: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.date {
+    font-family: DannaMedium;
+    font-size: 12px;
+    height: 17px;
+    width: 93px;
+    color: #707070;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -15px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1078px) {
+    .comments {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .comments {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.notification{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: white;
+    border: 1px solid #DCDCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .notification{
+        display: none;
+    }
+}

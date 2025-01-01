@@ -1,0 +1,18 @@
+.filterHolder{
+    width: 21.91176470588235%;
+    padding: 20px 0 20px 0;
+    height: auto;
+    border-radius: 32px;
+    border: 2px solid #DCDCDC;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+    .filterHolder{
+        display: none;
+    }
+}

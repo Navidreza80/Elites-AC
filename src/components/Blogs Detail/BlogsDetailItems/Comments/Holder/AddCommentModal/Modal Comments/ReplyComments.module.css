@@ -1,0 +1,136 @@
+.mainHolder{
+    display: flex;
+    height: 300px;
+    justify-content: right;
+    flex-flow: row nowrap;
+    direction: rtl;
+    gap: 15px;
+    align-items: center;
+}
+.holder{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.isReply{
+    height: 85%;
+    width: 6px;
+    background: #3772FF;
+    border-radius: 4px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    align-items: center;
+    height: auto;
+    direction: ltr;
+}
+.holderUser{
+    width: 180px;
+    height: 48px;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+.holderUsername{
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    width: 120px;
+    height: 100%;
+}
+.userName{
+    font-size: 14px;
+    font-family: DannaDemiBold;
+    color: #2F2F2F;
+    height: 50%;
+    width: 100%;
+ text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.insertDate{
+    font-size: 12px;
+    font-family: DannaMedium;
+    color: #707070;
+    height: 50%;
+    width: 100%;
+ text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.userAvatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+.commentTitle{
+    width: 100%;
+    font-size: 18px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+ text-align: right;
+}
+.commentDesc{
+    width: 100%;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+ text-align: right;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+    direction: rtl;
+}
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    background: url(../../../../../../../assets/Images/like.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+.likeCount{
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: #000000;
+}
+.dislikeIcon{
+    width: 24px;
+    height: 24px;
+    background: url(../../../../../../../assets/Images/dislike.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+.dislikeCount{
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: #000000;
+}
+.reply{
+    width: 99px;
+    height: 39px;
+    border: 1px solid #3772FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3772FF;
+    font-size: 16px;
+    font-family: DannaMedium;
+}

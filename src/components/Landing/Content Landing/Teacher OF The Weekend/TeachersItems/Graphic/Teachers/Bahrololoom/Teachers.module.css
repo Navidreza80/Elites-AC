@@ -1,0 +1,53 @@
+.holder{
+    width: 160px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.profile{
+    width: 104px;
+    height: 104px;
+    border-radius: 100%;
+    background: url(../../../../../../../../assets/Images/Bahr.jpg) 50% 50% no-repeat;
+    background-size: 100%;
+    filter: grayscale(10);
+}
+
+.rank{
+    width: 40%;
+    text-align: right;
+    font-size: 20px;
+    font-family: DannaBold;
+    color: #FCFCFC;
+    background: url(../../../../../../../../assets/Images/icons8-gold-medal-24.png) 8% 50% no-repeat;
+    background-size: 25px;
+}
+
+.name{
+    width: 100%;
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: #FCFCFC;
+ text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+    .holder{
+        top: 50px;
+        left: 220px;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .holder{
+        top: 50px;
+        left: 110px;
+    }
+}
+

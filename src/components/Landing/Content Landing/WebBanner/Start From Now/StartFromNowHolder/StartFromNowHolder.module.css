@@ -1,0 +1,17 @@
+.startFromNow{
+    width: 11.03%;
+    margin-left: 6.5%;
+    height: 44.4%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    gap: 10px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .startFromNow{
+        display: none;
+    }
+}

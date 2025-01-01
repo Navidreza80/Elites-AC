@@ -1,0 +1,184 @@
+.holderReplyAndComment{
+    border-bottom: 1px solid #DCDCDC;
+}
+.holder{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.inputHolders{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-right: 20px;
+    position: fixed;
+}
+.addCommentInput{
+    display: flex;
+    justify-content: right;
+    direction: ltr;
+    align-items: center;
+    position: fixed;
+    top: 600px;
+    left: 500px;
+    color: red;
+    width: 490px;
+    height: 72px;
+    border: 1px solid #3772FF;
+    z-index: 10000;
+    background: white;
+    border-radius: 24px;
+}
+.inputs{
+    outline: 0 none;
+    width: 362px;
+    background: white;
+    font-size: 14px;
+    font-family: DannaMedium;
+    text-align: right;
+    color: #707070;
+    padding: 2px;
+}
+.send{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background: #3772FF url("https://img.icons8.com/?size=100&id=TbpCBFVQVHZA&format=png&color=ffffff") 50% 50% no-repeat;
+    background-size: 60%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    align-items: center;
+    height: auto;
+    direction: ltr;
+}
+.holderUser{
+    width: 180px;
+    height: 48px;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+.holderUsername{
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    width: 120px;
+    height: 100%;
+}
+.userName{
+    font-size: 14px;
+    font-family: DannaDemiBold;
+    color: #2F2F2F;
+    height: 50%;
+    width: 100%;
+ text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.insertDate{
+    font-size: 12px;
+    font-family: DannaMedium;
+    color: #707070;
+    height: 50%;
+    width: 100%;
+ text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.userAvatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+.commentTitle{
+    width: 100%;
+    font-size: 18px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+ text-align: right;
+}
+.commentDesc{
+    width: 100%;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+ text-align: right;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+    direction: rtl;
+}
+.liked{
+    width: 24px;
+    height: 24px;
+    background: url('../../../../../../../assets/Images/like(1).png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.like{
+    width: 24px;
+    height: 24px;
+    background: url(../../../../../../../assets/Images/like.png) no-repeat 50% 50%;
+    background-size: cover;
+        cursor: pointer;
+}
+.likeCount{
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: #000000;
+}
+.disliked{
+    width: 24px;
+    height: 24px;
+    background: url('../../../../../../../assets/Images/dislike(1).png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.dislike{
+    width: 24px;
+    height: 24px;
+    background: url(../../../../../../../assets/Images/dislike.png) no-repeat 50% 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+.dislikeCount{
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: #000000;
+}
+.reply:active{
+    scale: 1.1;
+}
+.reply{
+    width: 99px;
+    height: 39px;
+    border: 1px solid #3772FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3772FF;
+    font-size: 16px;
+    font-family: DannaMedium;
+    cursor: pointer;
+}

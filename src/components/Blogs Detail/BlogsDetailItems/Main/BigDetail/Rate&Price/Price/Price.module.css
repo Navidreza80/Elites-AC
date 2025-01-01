@@ -1,0 +1,33 @@
+.price{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    line-height: 25px;
+}
+
+.number{
+    font-family: DannaBold;
+    font-size: 24px;
+    color: #2F2F2F;
+    margin-left: 8px;
+}
+
+.toman{
+    font-family: DannaMedium;
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+@media screen and (max-width: 1142px) {
+    .price{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .price{
+        display: none;
+    }
+}

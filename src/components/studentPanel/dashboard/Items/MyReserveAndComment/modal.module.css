@@ -1,0 +1,94 @@
+.titleHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+
+
+.close{
+    width: 101px;
+    height: 40px;
+    border-radius: 32px;
+    border: 1px solid #FF5353;
+    font-family: DannaNormal;
+    font-size: 18px;
+    color: #FF5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close:active{
+    scale: 1.1;
+}
+
+.blogOrCourse{
+    width: 167px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected{
+    width: 83px;
+    height: 40px;
+    background: #3772FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: DannaNormal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.courses{
+    width: 83px;
+    height: 40px;
+    background: none;
+    color: #707070;
+    font-size: 16px;
+    font-family: DannaNormal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 24px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.holderComments{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    direction: rtl;
+    overflow: scroll;
+
+}
+
+.holderCommentsD{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 375px;
+    direction: rtl;
+    overflow: scroll;
+
+}

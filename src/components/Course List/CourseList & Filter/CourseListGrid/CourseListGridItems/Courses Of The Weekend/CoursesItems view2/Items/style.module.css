@@ -1,0 +1,61 @@
+.holderImage{
+    width: 60%;
+    height: 100%;
+    border-radius: 32px;
+    cursor: url('https://img.icons8.com/?size=30&id=60022&format=png&color=3772FF'), default !important;
+}
+
+.imageProgramming{
+    width: 518px;
+    height: 100%;
+    border-radius: 32px;
+}
+
+@media screen and (max-width: 640px) {
+    .holderImage{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .holderImage{
+        height: 206px;
+        width: 186px;
+    }
+}
+@media screen and (max-width: 294px) {
+    .holderImage{
+        height: 136px;
+        width: 136px;
+    }
+}
+
+
+.lastUpdate{
+    height: 30px;
+    font-size: 16px;
+    font-family: DannaBold;
+    color: #5E5E5E;
+    width: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 391px) {
+    .lastUpdate{
+        display: none;
+    }
+}
+
+.title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: DannaBold;
+    font-size: 24px;
+    color: #2F2F2F;
+    width: 100%;
+ text-align: right;
+    font-family: DannaBold;
+    line-height: 40px;
+    height: 32px;
+}

@@ -1,0 +1,214 @@
+.DarkOrLight{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background:#2F2F2F url("../assets/Images/icons8-dark-mode-501.png") 50% 50% no-repeat;
+    background-size: 60%;
+    cursor: pointer;
+}
+.DarkOrLight2{
+        width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid #DCDCDC;
+    background:#2F2F2F url("../assets/Images/icons8-dark-mode-501.png") 50% 50% no-repeat;
+    background-size: 60%;
+}
+
+.inputToggle{
+    display: none;
+}
+
+.menu{
+    display: none;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: black url(../assets/Images/menu.png) 50% 50% no-repeat;
+    background-size: 50%;
+}
+
+.user{
+    width: 88px;
+    height: 56px;
+    border-radius: 32px;
+    border: 1px solid #DCDCDC;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.arrow{
+    width: 30px;
+    height: 20px;
+    background: url(../assets/Images/icons8-arrow-down-50.png) no-repeat 50% 50%;
+    background-size: 50%;
+}
+
+.userAccebility{
+    padding: 10px 10px 0 10px;
+    width: 160px;
+    height: auto;
+    background: #2F2F2F;
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.315);
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.items{
+    font-family: DannaBold;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    animation: none;
+}
+.holderr{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.fixed{
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+}
+
+.mainMenu{
+    position: absolute;
+    width: 100%;
+    background: #2F2F2F;
+    left: -1000px;
+    top: 0;
+    transition: 0.3s;
+    z-index: 20000000000000000000000000000000000000000000000000000000000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    row-gap: 100px;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeBtn{
+    width: 40px;
+    height: 40px;
+    background: url(../assets/Images/icons8-close-50.png) 50% 50% no-repeat;
+    background-size: 60%;
+}
+
+.holder{
+    width: 210px;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    flex-flow: row wrap;
+}
+
+.logoText{
+    height: 40px;
+    width: 170px;
+    background: url(../assets/Images/BahrAcText.png) 1% 50% no-repeat;
+    background-size: 100%;
+}
+
+.logoImage{
+    height: 40px;
+    width: 40px;
+    background: url(../assets/Images/BahrAcImg.png) 100% 50% no-repeat;
+    background-size: cover;
+}
+
+.content{
+    align-items: flex-start;
+    width: 94.4%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: DannaBold;
+    font-size: 32px;
+    color: #FCFCFC;
+  text-align: right;
+}
+
+.footer{
+    width: 94.4%;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #FCFCFC;
+}
+
+.instagram{
+    width: 24px;
+    height: 24px;
+    background: url(https://img.icons8.com/?size=100&id=32292&format=png&color=FFFFFF);
+    background-size: cover;
+}
+.telegram{
+    width: 24px;
+    height: 24px;
+    background: url(https://img.icons8.com/?size=100&id=TCnKnYZFoOzM&format=png&color=FFFFFF);
+    background-size: cover;
+}
+.youtube{
+    width: 24px;
+    height: 24px;
+    background: url(https://img.icons8.com/?size=100&id=Aq10GU126KJX&format=png&color=FFFFFF);
+    background-size: cover;
+}
+.twitter{
+    width: 24px;
+    height: 24px;
+    background: url(https://img.icons8.com/?size=100&id=437&format=png&color=FFFFFF);
+    background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .menu{
+        display: block;
+    }
+    .user{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .DarkOrLight{
+        display: none;
+    }
+}

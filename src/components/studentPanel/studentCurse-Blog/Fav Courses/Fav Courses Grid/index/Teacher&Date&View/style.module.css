@@ -1,0 +1,60 @@
+.holder{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.ViewAndDateHolder{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.date,.view,.teacher{
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-family: DannaDemiBold;
+    line-height: 20.02px;
+  text-align: right;
+    color: #2F2F2F;
+}
+.teacher{
+    width: 13.1%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+        font-size: 16px;
+    line-height: 22.88px;
+    margin-top: 12px;
+}
+.date{
+    width: 10.5%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+        font-size: 16px;
+    line-height: 22.88px;
+    margin-top: 12px;
+}
+
+/* @media screen and (max-width: 1116px) {
+    .teacher,.date,.view{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1003px) {
+    .date{
+        display: none;
+    }
+    .teacher{
+        width: 30%;
+    } 
+}
+@media screen and (max-width: 491px) {
+    .teacher{
+        display: none;
+    } 
+} */

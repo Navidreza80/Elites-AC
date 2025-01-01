@@ -1,0 +1,39 @@
+.selected{
+    width: 70%;
+    background-color: #F1F1F1 !important;
+}
+.left{
+    width: 100%;
+}
+.locationHolder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 24px;
+    gap: 24px;
+}
+.locationHolder > h1{
+    font-family: DannaMedium;
+    font-size: 16px;
+    font-family: DannaDemiBold;
+    line-height: 22.88px;
+  text-align: right;
+    color: #3772FF;
+}
+.location{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 404px;
+    border-radius: 16px;
+
+}
+.MapHolder{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+}
+.MapContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

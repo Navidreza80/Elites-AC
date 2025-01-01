@@ -1,0 +1,66 @@
+.top>h1,
+.bottom>h1 {
+    color: #3d3d3d;
+    text-align: right;
+    font-size: 15px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #fff;
+    font-family: DannaBold;
+}
+
+.top>li,
+.bottom>li {
+    color: #3d3d3d;
+    text-align: right;
+    font-size: 15px;
+    font-family: DannaMedium;
+    direction: rtl;
+    margin-bottom: 8px;
+    color: #323232;
+}
+
+.top>li>b,
+.bottom>li>b {
+    color: #000000;
+    text-align: right;
+    font-size: 15px;
+    font-family: DannaBold;
+}
+
+.bottom {
+    padding-bottom: 80px;
+}
+
+.footerFixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+}
+
+.footerFixed>div {
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 100%;
+    background: red;
+    height: 282px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.footerFixed>div>h1 {
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 18px;
+    font-family: DannaDemiBold;
+}

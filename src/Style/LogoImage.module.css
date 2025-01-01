@@ -1,0 +1,21 @@
+.image {
+    width: 42px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1328px) {
+    .image {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .image {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+

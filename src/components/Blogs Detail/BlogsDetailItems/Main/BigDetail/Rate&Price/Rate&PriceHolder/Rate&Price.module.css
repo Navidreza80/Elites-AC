@@ -1,0 +1,20 @@
+.holder{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    height: 34px;
+}
+
+@media screen and (max-width: 1078px) {
+    .holder{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .holder{
+        height: auto;
+        justify-content: right;
+        margin-top: 10px;
+    }
+}

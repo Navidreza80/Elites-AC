@@ -1,0 +1,32 @@
+.titleHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+    direction: rtl;
+    height: 55px;
+}
+.CompareButton{
+    text-align: center;
+    font-size: 12px;
+    font-family: DannaBold;
+    color: #ffffff;
+    border-radius: 50px;
+    height: 30px;
+    padding: 5px;
+    background: #3772ff;
+    margin-top: 5px;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px){
+    .CompareButton{
+        display: none;
+    }
+}

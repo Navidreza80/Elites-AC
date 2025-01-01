@@ -1,0 +1,233 @@
+.contentLeft{
+    width: 31%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.title{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.title > h1{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 140px;
+    background: rgb(146, 146, 146);
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    text-align: center;
+}
+.contentLeft > .img{
+    width: 100%;
+    height: 150px;
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.contentLeft > .img > img{
+    width: 128px;
+    height: 109px;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.information > div{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+    flex-flow: row-reverse nowrap;
+    width: 100%;
+}
+.information > div > h1{
+    font-size: 15px;
+    color: #494949;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.information > div > h2{
+    font-size: 17px;
+    color: #000000;
+    font-weight: 700;
+    text-align: right;
+}
+.information > div > a{
+    font-size: 17px;
+    color: #0088ff;
+    font-weight: 600;
+    text-align: right;
+}
+.price{
+    padding: 24px 0;
+    display: flex;
+    gap: 5px;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    border-top: 3px dashed #ccc;
+}
+.price > h1{
+    font-size: 17px;
+    color: #45bb00;
+    font-weight: 600;
+    text-align: right;
+    font-family: DannaMedium;
+    margin-top: 3px;
+}
+.price > h2{
+    font-size: 23px;
+    color: #45bb00;
+    font-weight: 700;
+    text-align: right;
+    font-family: DannaDemiBold;
+}
+
+.contentRight{
+    width: 65.1%;
+    height: 476.033px;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.container > div{
+    color: black;
+    font-family: DannaMedium;
+    font-size: 14px;
+    width: 233px;
+ text-align: right;
+ display: flex;
+ flex-flow: column wrap;
+ justify-content: right;
+}
+.container > div > h1{
+    color: black;
+    font-family: DannaMedium;
+    font-size: 14px;
+ text-align: right;
+}
+.container > div > p{
+    color: rgb(66, 66, 66);
+    font-family: DannaMedium;
+    font-size: 12px;
+ text-align: right;
+}
+.fourInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.Confirm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.Confirm > div{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    width: 400px;
+    justify-content: center;
+}
+.Confirm > div:last-child{
+    flex-flow: row-reverse nowrap;
+}
+.Confirm > div > label{
+    color: #000000;
+}
+.Confirm > div > input{
+    appearance: none;
+    background-color: #ccc;
+    border: 1px solid #000;
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.Confirm > div > input:checked{
+    appearance: auto;
+}
+.Confirm > div > button:first-child{
+    background: linear-gradient(to right,#18ce9b 0,#50dd51 100%);
+    box-shadow: 0 0 10px rgba(80,221,81,.5);
+    border-radius: 50px;
+    width: 236px;
+    height: 36px;
+    cursor: pointer;
+}
+.Confirm > div > a:last-child{
+    background-color: rgba(252,187,42,.6);
+    cursor: pointer;
+    border-radius: 50px;
+    width: 90px;
+    height: 36px;
+    text-align: center;
+    padding: 5px;
+}
+.cardNumber{
+    height: 100%;
+    width: 25%;
+    border: 1px solid #c3c0c0;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.cvv2{
+    width: 334px;
+    height: 100%;
+    border: 1px solid #c3c0c0;
+    background-color: rgba(242,242,242,.5);;
+    border-radius: 25px;
+}
+.InputsHolder{
+    display: flex;
+    flex-flow: row wrap !important;
+    width: 340px !important;
+    height: 34px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.Input2{
+    width: 91px;
+    height: 100%;
+    border: 1px solid #c3c0c0;
+    background-color: rgba(242,242,242,.5);;
+    border-radius: 25px;
+}
+.Input2::placeholder{
+    text-align: center;
+
+}

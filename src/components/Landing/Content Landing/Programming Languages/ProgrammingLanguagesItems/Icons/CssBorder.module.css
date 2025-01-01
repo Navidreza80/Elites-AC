@@ -1,0 +1,16 @@
+.border{
+    width: 400px;
+    height: 20px;
+    background: url("../../../../../../assets/Images/borderCss.png") 50% 50% repeat-x;
+    background-size: 120%;
+    transform: rotate(15.61deg);
+    top: 79px;
+    position: absolute;
+    left: -211px;
+}
+
+@media screen and (max-width: 488px) {
+    .border{
+        background-size: 80%;
+    }
+}

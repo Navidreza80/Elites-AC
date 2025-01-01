@@ -1,0 +1,17 @@
+.text{
+    width: 189px;
+    height: 38px;
+}
+
+@media screen and (max-width: 1328px) {
+    .text{
+        width: 120px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .text{
+        display: none;
+    }
+}

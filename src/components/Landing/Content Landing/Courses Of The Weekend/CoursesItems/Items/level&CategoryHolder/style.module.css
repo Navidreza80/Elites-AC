@@ -1,0 +1,39 @@
+.holder{
+    width: auto;
+    height: 10%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.level{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #FCFCFC;
+    border-radius: 32px;
+    background: #FF37F5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.category{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #FCFCFC;
+    border-radius: 32px;
+    background: #3772FF;
+}

@@ -1,0 +1,64 @@
+.containerDesc{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    direction: rtl;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+ text-align: right;
+    font-size: 20px;
+    font-family: DannaBold;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+ text-align: right;
+    width: 100%;
+    margin-top: 20px;
+    direction: rtl;
+}
+
+.yourRate{
+    width: 80px;
+    height: 28px;
+    color: #3772FF;
+    font-size: 16px;
+    font-family: DannaDemiBold;
+ text-align: right;
+    margin-top: 15px;
+}
+
+.rate{
+    width: 160px;
+    background-size: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.copyLink:active{
+    scale: 1.1;
+}
+.copyLink{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #3772FF;
+    border-radius: 48px;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #3772FF;
+    margin-top: 13px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}

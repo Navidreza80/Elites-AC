@@ -1,0 +1,38 @@
+.errorPage{
+    width: 100%;
+    min-height: 1000px;
+    background: #ffffff;
+}
+
+.image{
+    margin: auto;
+    width: 596px;
+    height: 381px;
+    background: url(https://img.freepik.com/premium-photo/premium-quality-ecommerce-store-3d-illustrations_1266756-425.jpg?semt=ais_hybrid) no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+.title{
+    font-family: DannaBold;
+    font-size: 36px;
+    color: black;
+    margin: auto;
+    width: 400px;
+        user-select: none;
+}
+
+.homePage{
+    width: 184px;
+    height: 57px;
+    border-radius: 40px;
+    border: 2px solid #2200FF;
+    margin: auto;
+    margin-top: 20px;
+    font-family: DannaMedium;
+    text-decoration: underline;
+    color: #006C90;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+
+
+.imageProgramming{
+    width: 45%;
+    height: 90%;
+    border-radius: 100%;
+}
+
+.title{
+    font-family: DannaBold;
+    font-size: 18px;
+    color: #2F2F2F;
+    width: 100%;
+    text-align: right;
+    height: auto;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

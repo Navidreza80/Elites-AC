@@ -1,0 +1,116 @@
+.holder{
+    width: 36.59722222222222%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    direction: rtl;
+    margin-right: 3%;
+}
+
+.title{
+    width: 100%;
+    height: 12.78195488721805%;
+    font-family: DannaBold;
+    font-size: 24px;
+    color: #FCFCFC;
+ text-align: right;
+    animation: visible linear forwards;
+    animation-timeline: view();
+    animation-range:  entry;
+    scale: 0;
+    opacity: 0;
+}
+
+@keyframes visible{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.paragraph{
+    width: 100%;
+    height: 54.51127819548872%;
+    font-size: 20px;
+    font-family: DannaNormal;
+    color: #F6F6F6;
+ text-align: right;
+    animation: visible linear forwards;
+    animation-timeline: view();
+    animation-range:  entry;
+    scale: 0;
+    opacity: 0;
+}
+
+
+@keyframes visible{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.button:active{
+    scale: 1.1;
+}
+
+.button{
+    width: 22.58064516129032%;
+    height: 14.66165413533835%;
+    background: #3772FF;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 35px;
+    animation: visible linear forwards;
+    animation-timeline: view();
+    animation-range:  entry;
+    scale: 0;
+    opacity: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: DannaMedium;
+}
+
+@keyframes visible{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .paragraph{
+        font-size: 12px;
+        height: auto;
+    }
+    .button{
+        font-size: 12px;
+    }
+    .holder{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .paragraph{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+        margin: o;
+    }
+    .holder{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 0;
+    }
+    .button{
+        font-size: 20px;
+        width: auto;
+        padding: 10px;
+    }
+}

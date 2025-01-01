@@ -1,0 +1,8 @@
+.container{
+    width: 241px;
+    height: 48px;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.holder{
+    width: 100%;
+}
+.holder > div:nth-child(2),.holder > div:nth-child(3){
+    color: #656565;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.holderlinkedin{
+    display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchBox{
+    width: 50px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 16px;
+    background: #3772FF url(../../../../assets/Images/icons8-search-30white.png) 50% 50% no-repeat;
+    background-size: 50%;
+}
+
+.filterDetail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+    position: relative;
+    width: 500px;
+}
+
+.linkedin{
+    width: 100% !important;
+    color: blue;
+    font-family: DannaMedium;
+}

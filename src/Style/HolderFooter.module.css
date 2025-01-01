@@ -1,0 +1,29 @@
+.footerContainer {
+    width: 94.44444444%;
+    height: 110.5px;
+    border-top: 1px solid #DCDCDC;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerFix{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-flow: row wrap;
+}
+
+@media screen and (max-width: 862px) {
+    .footerContainer {
+        flex-flow: row wrap;
+        height: auto;
+    }
+    .footerFix{
+        height: auto;
+    }
+}

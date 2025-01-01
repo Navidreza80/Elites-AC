@@ -1,0 +1,388 @@
+form {
+    direction: rtl;
+    width: 100%;
+}
+
+.navigate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+
+.navigate>div {
+    width: 41.2%;
+}
+
+.navigate>div>h1 {
+    text-align: center;
+    color: rgb(156, 163, 175, 1);
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.88px;
+    width: 100%;
+
+}
+
+.navigate>div>h1:first-child {
+    margin-top: 12px;
+}
+
+.navigate>div>div {
+    width: 100%;
+    height: 8px;
+    background: #DCDCDC;
+    border-radius: 50px;
+}
+
+.navigate>.select>div {
+    background-color: #3772FF;
+}
+
+.navigate>.lastSelect>div {
+    background-color: #3772FF;
+    opacity: 0.5;
+}
+
+.navigate>.select>h1 {
+    color: black;
+    font-weight: 600;
+}
+
+.navigateRegister>div {
+    width: 30.629%;
+}
+
+.textNavigate {
+    font-size: 16px;
+    line-height: 22.88px;
+    text-align: right;
+    color: #2f2f2f86;
+}
+
+.HomePageButton {
+    border-radius: 34px;
+    display: flex;
+    gap: 8px;
+    border: 1px solid #DCDCDC;
+    padding: 8px 16px;
+    margin-top: 1rem;
+}
+
+.input {
+    background-color: #fff ;
+    border: 1px solid #DCDCDC;
+    width: 100%;
+    height: 48px !important;
+    border-radius: 24px;
+    padding-right: 12px !important;
+    color: #3d3d3d;
+    font-family: DannaNormal;
+}
+
+.inputHolder{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.inputHolder > label{
+    font-family: DannaDemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: right;
+    width: 100%;
+    color: #2f2f2f;
+}
+
+/* form>div:not(form>div:first-child),form > a{
+    max-width: 384px;
+} */
+.inputPasswordHolder{
+    position: relative;
+    display: flex;
+}
+.inputPassword {
+    background: url(https://img.icons8.com/?size=100&id=85028&format=png&color=707070) no-repeat 3% 50%;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.inputPasswordC {
+    background: url(https://img.icons8.com/?size=100&id=121539&format=png&color=707070) no-repeat 3% 50%;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    cursor: pointer;
+}
+
+
+.form>div>div>a {}
+
+/* form > div:nth-child(5) > div > input{
+    background-color: rgb(255, 255, 255);
+    height: 16px !important;
+    border: 1px solid #ccc;
+    appearance: none;
+}
+form > div:nth-child(5) > div > input:checked{
+    appearance: auto;
+}
+form > div:nth-child(5) > div{
+    direction: ltr;
+} */
+.selectedNavigate {
+    color: #000000;
+}
+
+.forgetPasswordLogin {
+    color: #3772FF;
+    border-radius: 50px;
+    background-color: #F6F6F6;
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20.02px;
+    text-align: center;
+    padding: 8px 16px;
+    letter-spacing: -0.5px;
+}
+
+.LoginAccount{
+    background: #3772FF;
+    padding: 12.5px 0;
+    border-radius: 50px;
+    margin-top: 24px !important;
+    display: flex;
+}
+
+.LoginAccount>button{
+    text-align: center;
+    width: 100%;
+    font-family: DannaMedium;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 22.88px;
+}
+
+.RememberAndForget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.RememberAndForget>div {
+    display: flex;
+    gap: 8px;
+    flex-flow: row-reverse nowrap;
+}
+
+.RememberAndForget>div>input {
+    appearance: none;
+    background-color: #F1F1F1;
+    border: 1px solid #DCDCDC;
+    height: 24px;
+    width: 24px;
+    border-radius: 8px;
+    margin: 6px 0;
+}
+
+.RememberAndForget>div>label {
+    font-family: DannaMedium;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.88px;
+    text-align: right;
+    color: #2f2f2f;
+    padding-top: 6px;
+}
+
+.RememberAndForget>div>input:checked {
+    appearance: auto;
+}
+
+.lastNavigate {
+    background-color: #3772FF !important;
+    opacity: 0.5 !important;
+    border-radius: 9px;
+    height: 8px;
+    width: 100%;
+}
+
+.button {
+    background-color: #3772FF;
+    width: 100%;
+    height: 100%;
+    font-family: DannaMedium;
+    font-size: 1.225rem;
+    font-weight: 600;
+    line-height: 22.88px;
+    text-align: center;
+    color: #FCFCFC;
+    top: 521px;
+    left: 946px;
+    padding: 12.5px 0;
+    gap: 8px;
+    border-radius: 40px;
+}
+
+.buttonHolder {
+    width: 398px;
+    height: 48px;
+    margin-top: 1rem;
+}
+
+.divRegister {
+    width: 398px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.sendAgain {
+    width: 398px;
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+}
+
+.sendAgainButton {
+    background-color: #F6F6F6;
+    color: #3772FF;
+    padding: 8px 16px;
+    width: 190px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.02px;
+
+}
+
+.form>div:not(.navigate),
+.form>a {
+    max-width: 24rem;
+    margin-top: 16px;
+}
+
+.returnHolder{
+    display: flex;
+    justify-content: center;
+}
+
+.return {
+    border: 1px solid #dcdcdc;
+    padding: 8px 16px;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.return > a{
+    color: #3772FF;
+    font-family: DannaMedium;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.88px;
+    text-align: center;
+
+}
+
+.HeaderLogin {
+    margin-top: 75px !important;
+    margin-bottom: 36px;
+}
+
+.HeaderLogin>h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40.04px;
+    text-align: right;
+    color: #2f2f2f;
+    font-family: DannaDemiBold;
+    margin-bottom: 16px;
+}
+
+.HeaderLogin>p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.88px;
+    text-align: right;
+    color: #707070;
+    font-family: DannaDemiBold;
+}
+.RegisterLoginButton{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.RegisterLoginButton > a{
+    color: #3772FF;
+    font-family: DannaDemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.RegisterLoginButton > h1{
+    color: #2f2f2f;
+    font-family: DannaDemiBold;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.HomePageButtonHolder{
+    display: flex;
+    justify-content: center;
+}
+
+.HomePageButton{
+    padding: 8px 16px;
+}
+
+.HomePageButton > h1{
+    font-family: DannaDemiBold;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.88px;
+    text-align: center;
+    color: #3772FF;
+}
+
+@media screen and (max-width:600px) {
+    .page2 {
+        display: none;
+    }
+
+    /* form > div,form > a{
+        max-width: 100% !important;
+    } */
+    .HomePageButton {
+        display: none;
+    }
+
+    .navigate {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .navigate>div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.holderImage{
+    width: 100%;
+    height: 80.27397260273973%;
+        cursor: url('https://img.icons8.com/?size=30&id=60022&format=png&color=3772FF'), default !important;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+}

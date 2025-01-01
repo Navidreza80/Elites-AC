@@ -1,0 +1,20 @@
+.smallText{
+    width: 100%;
+    text-align: center;
+    color: #707070;
+    font-family: DannaMedium;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}

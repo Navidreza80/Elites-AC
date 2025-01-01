@@ -1,0 +1,1024 @@
+.root {
+    background-color: #242424;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 0 24px 24px;
+    direction: rtl;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+}
+
+.button{
+    margin-top: 20px !important;
+    background: #3772FF;
+    border-radius: 32px;
+    padding: 11px;
+    font-family: DannaMedium;
+}
+
+.uploadImage {
+    width: 179px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #3772FF;
+    font-size: 16px;
+    font-family: DannaDemiBold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+    gap: 5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.699);
+    top: 0;
+    left: 0;
+}
+
+.addImage {
+    width: 24px;
+    height: 24px;
+    background: url(../assets/Images/add-image.png) no-repeat 50% 50%;
+    background-size: cover;
+
+}
+
+.right {
+    width: 20%;
+}
+
+.left {
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 0px 20px 0;
+}
+
+.accountHolder {
+    width: 200px;
+    background-size: 48px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.userProfile {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.userHolder {
+    margin-right: 20px;
+}
+
+.userName {
+    font-size: 16px;
+    font-family: DannaDemiBold;
+    line-height: 22.88px;
+    text-align: right;
+    color: #FCFCFC;
+}
+
+.userLevel {
+    font-size: 14px;
+    font-family: DannaMedium;
+    line-height: 20.02px;
+    text-align: right;
+    color: #F6F6F6;
+
+}
+
+.titleHolder {
+    height: 34px;
+    margin-bottom: 35px;
+}
+
+.navigate {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 306px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleHeader {
+    font-family: DannaMedium;
+    font-size: 16px;
+    font-family: DannaMedium;
+    line-height: 22.88px;
+    text-align: right;
+    color: #FCFCFC;
+}
+
+.notifAndDarkHolder {
+    display: flex;
+    gap: 8px;
+}
+
+.notifAndDarkHolder>div {
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    background-color: #2F2F2F;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    cursor: pointer;
+}
+
+.dark {
+    background-image: url("https://img.icons8.com/?size=100&id=45474&format=png&color=ffffff");
+}
+
+.notif {
+    background-image: url("https://img.icons8.com/?size=100&id=H1UeFcv5ogFU&format=png&color=ffffff");
+    position: relative;
+    border: 1px solid #dcdcdc;
+}
+
+.notif>span {
+    border-radius: 50px;
+    background-color: #FF5E5E;
+    color: white;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    font-family: DannaMedium;
+    line-height: 17.16px;
+    text-align: center;
+
+}
+
+.title {
+    font-family: DannaMedium;
+    font-size: 24px;
+    font-family: DannaBold;
+    line-height: 34.32px;
+    text-align: right;
+    color: #2F2F2F;
+}
+
+.page {
+    background-color: white;
+    border-radius: 32px;
+    padding: 24px;
+}
+
+.page2 {
+    width: 100%;
+}
+
+.logoBahr {
+    background: url("../assets/Images/logoBahr.png")no-repeat 50% 50%;
+    background-size: cover;
+    width: 235px;
+    height: 42px;
+    margin: 24px 24px 0 0;
+}
+
+.bottom {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 53px;
+    margin-right: 20px;
+}
+
+.menu>div {
+    width: 100%;
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+    right: 0px;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
+.menu>div:hover {
+    right: 20px;
+    text-shadow: 1px 1px 10px white;
+}
+
+.menu>div>h1 {
+    font-size: 18px;
+    font-family: DannaMedium;
+    line-height: 25.74px;
+    text-align: right;
+    color: #FCFCFC;
+}
+
+.menu>div>div {
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Dashboard {
+    background-image: url(../assets/Images/dashboard.png);
+}
+
+.MyPeriod {
+    background-image: url(../assets/Images/MyPeriod.png);
+}
+
+.MyReservation {
+    background-image: url(../assets/Images/MyReservation.png);
+}
+
+.favoritePeriod {
+    background-image: url(../assets/Images/favoritePeriod.png);
+}
+
+.BlogMenu {
+    background-image: url(../assets/Images/Blog.png);
+}
+
+.profile {
+    background-image: url(../assets/Images/profile.png);
+}
+
+.pay {
+    background-image: url(../assets/Images/moneyWhite.png);
+}
+
+.jobs {
+    background-image: url(https://img.icons8.com/?size=100&id=7GSs0XLsEg6x&format=png&color=FFFFFF);
+}
+
+.home {
+    background-image: url(https://img.icons8.com/?size=100&id=Gc9qmZNN9yFN&format=png&color=FFFFFF);
+}
+
+.report {
+    background-image: url(https://img.icons8.com/?size=100&id=7SDxQwWmjb1X&format=png&color=FFFFFF);
+}
+
+.communicate {
+    background-image: url(https://img.icons8.com/?size=100&id=23410&format=png&color=FFFFFF);
+}
+
+.logout {
+    height: 58px;
+    gap: 8px;
+    width: 257px;
+    margin-right: 15px;
+    border-radius: 40px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    gap: 12px;
+}
+
+.logout>h1 {
+    font-size: 16px;
+    font-family: DannaMedium;
+    line-height: 22.88px;
+    text-align: right;
+}
+
+.exit {
+    background: url(https://img.icons8.com/?size=100&id=24338&format=png&color=ff0000)no-repeat 50% 50%;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+
+.searchAndDateHolder {
+
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+
+.dateHolder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 265px;
+}
+
+.searchHolder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 265px;
+}
+
+.searchAndDateHolder>div>div {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 8px;
+    height: 24px;
+}
+
+.searchAndDateHolder>div>div>label {
+    font-size: 16px;
+    font-family: DannaMedium;
+    line-height: 22.88px;
+    text-align: right;
+    color: #2F2F2F;
+}
+
+.searchLogo {
+    background: url(https://img.icons8.com/?size=100&id=132&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+
+.dateLogo {
+    background: url(https://img.icons8.com/?size=100&id=23&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+
+.input {
+    width: 258px;
+    height: 48px;
+    border-radius: 16px;
+    padding-right: 5px;
+    background-color: #F1F1F1;
+    font-size: 13px;
+    font-family: DannaMedium;
+    line-height: 17.16px;
+    text-align: right;
+    color: #707070;
+    border: none;
+}
+
+.list {
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 710px;
+    border-radius: 24px;
+    margin-top: 24px;
+    padding-top: 24px;
+    overflow: hidden;
+}
+.list > div:last-child{
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+
+
+.headerList {
+    margin: 0 24px;
+    border-radius: 16px;
+    background-color: #ececec;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    padding: 0 10px;
+}
+
+.headerList>div {
+    margin: 12px 0;
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-family: DannaDemiBold;
+    line-height: 20.02px;
+    text-align: right;
+    color: #707070;
+}
+
+.imgList {
+    width: 7.9%;
+}
+
+.nameList {
+    width: 11.6%;
+}
+
+.teacherList {
+    width: 13.2%;
+}
+
+.dateStartList {
+    width: 10.5%;
+}
+
+.dateEndList {
+    width: 10.5%;
+}
+
+.levelList {
+    width: 5.9%;
+}
+
+.eyeList {
+    width: 2.2%;
+}
+
+.hamburgerMenu {
+    width: 30px;
+    height: 30px;
+    background: url(https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF);
+    background-size: cover;
+    margin-left: 10px;
+    display: none;
+}
+
+.checkBox {
+    display: none;
+}
+
+.hamburgerMenu>.right2 {
+    position: absolute;
+    background: black;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.checkBox:checked+label>.right2 {
+    visibility: visible;
+    opacity: 1;
+    width: 300px;
+    transition: 0.5s;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    background: url(../assets/Images/icons8-close-50.png);
+    background-size: cover;
+
+}
+
+.TopDashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightTopDashboard {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.TopRightTopDashboard {
+    display: flex;
+}
+
+.TopRightTopDashboard>p {
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.02px;
+
+    text-align: right;
+
+    color: #707070;
+    margin-top: 10px;
+    width: auto !important;
+}
+
+.TopRightTopDashboard>h1 {
+    font-family: DannaMedium;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.32px;
+    text-align: right;
+    color: #2F2F2F;
+    width: auto !important;
+}
+
+.BottomRightTopDashboard {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 43px;
+    gap: 56px;
+}
+
+.clock {
+    height: 43px;
+    display: flex;
+    gap: 8px;
+}
+
+.clock>.icon {
+    background: #e0e0e0 url(https://img.icons8.com/?size=100&id=423&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.clockItem>p,
+.dateItem>p {
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.02px;
+    text-align: right;
+    color: #707070;
+}
+
+.clockItem>h1,
+.dateItem>h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.88px;
+    text-align: center;
+    color: #000000;
+}
+
+.date {
+    height: 43px;
+    display: flex;
+    gap: 8px;
+}
+
+.date>.icon {
+    background: #e0e0e0 url(https://img.icons8.com/?size=100&id=16152&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.leftTopDashboard {
+    width: 40%;
+}
+
+.MyCourseAndStatus,
+.MyReserveAndComment {
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.leftTopDashboard>h1 {
+    color: black;
+    font-family: DannaMedium;
+    font-size: 16px;
+    line-height: 22.88px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.listMyCoursesDashboard {
+    width: 73%;
+    background-color: #F6F6F6;
+    border-radius: 24px;
+    padding-bottom: 15px;
+}
+
+.titleHeaderMyCourseList {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 24px;
+}
+
+.seeMore {
+    width: auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.02px;
+    text-align: right;
+    position: relative;
+    color: #3772FF;
+}
+
+.titleHeaderMyCourseList>h1,
+.titleHeaderMyCourseList>a {
+    width: auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.02px;
+    text-align: right;
+}
+
+.titleHeaderMyCourseList>h1 {
+    color: #2F2F2F;
+}
+
+.titleHeaderMyCourseList>a,
+.titleHeaderMyCourseList>div {
+    color: #3772FF;
+}
+
+.listMyCoursesDashboard>.headerList {
+    justify-content: space-between;
+    background-color: #F1F1F1;
+}
+
+.listMyCoursesDashboard>div:last-child {
+    height: 136px;
+    overflow: hidden;
+}
+
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(5) {
+    display: none;
+}
+
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(6) {
+    width: 8%;
+}
+
+.listMyCoursesDashboard>div:last-child>div>a {
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(4) {
+    width: 14.3%;
+}
+
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(3) {
+    width: 18.3%;
+}
+
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(2) {
+    width: 11.7%;
+}
+
+.listMyCoursesDashboard>div:last-child>div>img {
+    width: 11.3%;
+}
+
+.statusDashboard {
+    background-color: #F6F6F6;
+    width: 26%;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.statusDashboard>.topStatusDashboard {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.statusDashboard>.topStatusDashboard>h1,
+.statusDashboard>.bottomStatusDashboard>h1 {
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.02px;
+    text-align: right;
+    color: #2F2F2F;
+}
+
+.statusDashboard>.topStatusDashboard>a {
+    background: url(https://img.icons8.com/?size=100&id=P1bJzKUoOQYz&format=png&color=3772FF) no-repeat 50% 50%;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
+
+
+.statusDashboard>div {
+    width: 100%;
+    height: auto;
+}
+
+.statusDashboard>.middleStatusDashboard {
+    display: flex;
+    justify-content: center;
+}
+
+.statusDashboard>.bottomStatusDashboard {
+    display: flex;
+    justify-content: center;
+}
+
+.listMyReserveDashboard {
+    width: 62%;
+    background-color: #F6F6F6;
+    border-radius: 24px;
+    height: 448px;
+    overflow: hidden;
+
+}
+
+.listMyReserveDashboard>.headerList {
+    justify-content: space-between;
+    background-color: #F1F1F1;
+}
+
+.listMyReserveDashboard>div:last-child>div>div:nth-child(5),
+.listMyReserveDashboard>div:last-child>div>div:nth-child(6) {
+    display: none;
+}
+
+.commentDashboard {
+    background-color: #F6F6F6;
+    border-radius: 24px;
+    width: 37%;
+}
+
+.CoursesAndBlogsHolder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.CoursesAndBlogsLine {
+    background-color: #c9c9c9;
+    width: 30%;
+    height: 2px;
+    margin-top: 3%;
+}
+
+.CoursesAndBlogsSt {
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.02px;
+    text-align: center;
+    color: #707070;
+    width: 30%;
+}
+
+.headerList {
+    gap: 0;
+}
+
+.listMyCoursesDashboard>div:last-child>div>div:not(:nth-child(2)),
+.listMyReserveDashboard>div:last-child>div>div:not(:nth-child(3)) {
+    font-size: 14px !important;
+}
+
+.dateStartList,
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(4),
+.listMyReserveDashboard>div:last-child>div>div:nth-child(7) {
+    width: 110px;
+}
+
+.levelList,
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(6) {
+    width: 62px;
+}
+
+.eyeList,
+.listMyCoursesDashboard>div:last-child>div>a {
+    width: 24px;
+}
+
+.imgList,
+.listMyCoursesDashboard>div:last-child>div>img {
+    width: 83px;
+}
+
+.listMyCoursesDashboard>.headerList>.nameList,
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(2) {
+    width: 86px;
+}
+
+.teacherList,
+.listMyCoursesDashboard>div:last-child>div>div:nth-child(3),
+.listMyReserveDashboard>div:last-child>div>div:nth-child(4) {
+    width: 140px;
+}
+
+.listMyReserveDashboard>.headerList>.imgList {
+    width: 83px;
+}
+
+.listMyReserveDashboard>.headerList>.nameList,
+.listMyReserveDashboard>div:last-child>div>div:nth-child(3) {
+    width: 100px;
+}
+
+.listMyReserveDashboard>.headerList>.eyeList,
+.listMyCoursesDashboard>div:last-child>div>div:last-child {
+    width: 65px;
+}
+
+.listMyReserveDashboard>div:last-child>div>img {
+    width: 83px;
+}
+
+.listMyCoursesDashboard>div:not(:first-child) {
+    padding-left: 24px;
+}
+
+.listMyCoursesDashboard>div {
+    min-width: 808px;
+}
+
+.listMyCoursesDashboard>div:last-child {
+    padding: 0 24px 20px 0;
+    height: 136px ;
+    overflow: scroll ;
+}
+
+.listMyReserveDashboard>div:not(:first-child) {
+    padding-left: 24px;
+}
+
+.listMyReserveDashboard>div {
+    min-width: 630px;
+}
+
+.listMyReserveDashboard>div:last-child {
+    padding: 0 24px 20px 0;
+    height: 368px ;
+    overflow: scroll ;
+}
+.listMyReserveDashboard {
+    height: 487px;
+}
+
+.listMyCoursesDashboard {
+    height: 289px;
+}
+.listMyReserveDashboard,
+.listMyCoursesDashboard {
+    overflow: scroll;
+}
+
+@media screen and (max-width:1362px) {
+    .navigate {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .root {
+        padding: 24px;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+
+    .accountHolder {
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 1065px) {
+    .headerList {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 791px) {
+
+    .MyCourseAndStatus,
+    .MyReserveAndComment {
+        flex-flow: column wrap;
+        gap: 20px;
+    }
+
+    .listMyCoursesDashboard,
+    .statusDashboard,
+    .commentDashboard,
+    .listMyReserveDashboard {
+        width: 100%;
+    }
+
+    .listMyReserveDashboard {
+        height: 260px;
+    }
+
+    .listMyReserveDashboard>div:last-child {
+        height: 160px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 696px) {
+    .leftTopDashboard {
+        display: none;
+    }
+
+    .rightTopDashboard {
+        width: 100%;
+    }
+
+    .TopRightTopDashboard>h1 {
+        font-size: 20px;
+    }
+
+    .TopRightTopDashboard>p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 628px) {
+    .searchAndDateHolder {
+        flex-flow: row wrap;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    .searchAndDateHolder > div{
+        width: 100%;
+    }
+    .searchAndDateHolder > div > div,.searchAndDateHolder > div > input{
+        width: 100%;
+        justify-content: right;
+    }
+}
+@media screen and (max-width: 582px) {
+    .userHolder {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .BottomRightTopDashboard {
+        flex-flow: column wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .BottomRightTopDashboard>div {
+        width: 100%;
+    }
+
+    .page {
+        padding: 10px;
+    }
+}
+
+/* @media screen and (max-width: 1085px) {
+    .list{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1003px) {
+    .dateEndList{
+        display: none;
+    }
+    .dateStartList{
+        display: none;
+    }
+    .headerList{
+        justify-content: right;
+        gap: 85px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .levelList{
+        display: none;
+    }
+}
+@media screen and (max-width: 727px) {
+    .imgList{
+        display: none;
+    }
+}
+@media screen and (max-width: 616px) {
+    .dateHolder{
+        display: none;
+    }
+}
+@media screen and (max-width: 491px) {
+    .teacherList{
+        display: none;
+    } 
+} */

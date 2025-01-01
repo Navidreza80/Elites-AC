@@ -1,0 +1,8 @@
+.holder{
+    width: 100%;
+    min-width: 270px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}

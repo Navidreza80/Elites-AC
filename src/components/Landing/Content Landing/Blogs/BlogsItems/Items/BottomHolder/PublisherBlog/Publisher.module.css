@@ -1,0 +1,13 @@
+.publisher{
+    width: auto;
+    height: 100%;
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+}
+
+@media screen and (max-width: 1021px) {
+    .publisher{
+        font-size: 10px;
+    }
+}

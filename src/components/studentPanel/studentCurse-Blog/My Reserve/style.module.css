@@ -1,0 +1,210 @@
+.titleHeaderTopStudent{
+    font-family: DannaBold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.32px;
+    text-align: right;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+}
+.searchAndDateHolder{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+.dateHolder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 265px;
+}
+.searchHolder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 265px;
+}
+.searchAndDateHolder > div > div{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 8px;
+    height: 24px;
+}
+.searchAndDateHolder > div > div > label{
+    font-size: 16px;
+    font-family: DannaMedium;
+    line-height: 22.88px;
+     text-align: right;
+    color: #2F2F2F;
+}
+.searchLogo{
+    background: url(https://img.icons8.com/?size=100&id=132&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+.dateLogo{
+    background: url(https://img.icons8.com/?size=100&id=23&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+.input{
+    width: 258px;
+    height: 48px;
+    border-radius: 16px;
+    padding-right: 5px;
+    background-color: #F1F1F1; 
+    font-size: 13px;
+    font-family: DannaMedium;
+    line-height: 17.16px;
+  text-align: right;
+    color: #707070;
+    border: none;
+}
+.list{
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 690px;
+    border-radius: 24px;
+    margin-top: 24px;
+    padding-top: 24px;
+    overflow-y: scroll;
+}
+.headerList{
+    margin:0 24px;
+    border-radius: 16px;
+    background-color: #ececec;
+    height: 48px;
+    display: flex;
+    justify-content: right;
+    gap: 55px;
+    padding: 0 10px;
+}
+.headerList > div{
+    margin: 12px 0;
+    font-family: DannaMedium;
+    font-size: 14px;
+    font-family: DannaDemiBold;
+    line-height: 20.02px;
+  text-align: right;
+    color: #707070;
+}
+.imgList{
+    width: 7.9%;
+}
+.nameList{
+    width: 11.6%;
+}
+.teacherList{
+    width: 13.2%;
+}
+.dateStartList{
+    width: 10.5%;
+}
+.dateEndList{
+    width: 10.5%;
+}
+.levelList{
+    width: 5.9%;
+}
+.eyeList{
+    width: 2.2%;
+}
+.hamburgerMenu{
+    width: 30px;
+    height: 30px;
+    background: url(https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF);
+    background-size: cover;
+    margin-left: 10px;
+    display: none;
+}
+.checkBox{
+    display: none;
+}
+
+.hamburgerMenu > .right2{
+    position: absolute;
+    background: black;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+.checkBox:checked + label > .right2 {
+    visibility: visible;
+    opacity: 1;
+    width: 300px;
+    transition: 0.5s;
+}
+
+
+.close {
+    width: 30px;
+    height: 30px;
+    background: url(../assets/Images/icons8-close-50.png);
+    background-size: cover;
+    
+}
+
+@media screen and (max-width:1362px){
+    .navigate{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .root{
+        padding: 24px;
+    }
+    .hamburgerMenu{
+        display: block;
+    }
+
+}
+/* @media screen and (max-width: 1085px) {
+    .list{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1003px) {
+    .dateEndList{
+        display: none;
+    }
+    .dateStartList{
+        display: none;
+    }
+    .headerList{
+        justify-content: right;
+        gap: 85px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .levelList{
+        display: none;
+    }
+}
+@media screen and (max-width: 727px) {
+    .imgList{
+        display: none;
+    }
+}
+@media screen and (max-width: 616px) {
+    .dateHolder{
+        display: none;
+    }
+}
+@media screen and (max-width: 491px) {
+    .teacherList{
+        display: none;
+    } 
+} */

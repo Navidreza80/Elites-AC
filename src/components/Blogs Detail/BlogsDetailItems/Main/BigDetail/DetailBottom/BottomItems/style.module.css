@@ -1,0 +1,70 @@
+.Status{
+    border-left: 2px solid #DCDCDC;
+    height: 100%;
+    width: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    flex-flow:  row wrap;
+}
+.topS{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.bottomS{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Teacher{
+    height: 100%;
+    width: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    flex-flow:  row wrap;
+}
+.topT{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.bottomT{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 698px) {
+    .Teacher{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid #DCDCDC;
+        border-radius: 16px 0 0 16px;
+        height: 80px;
+    }
+    .Status{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid #DCDCDC;
+        border-radius: 0 16px 16px 0;
+        height: 80px;
+    }
+}

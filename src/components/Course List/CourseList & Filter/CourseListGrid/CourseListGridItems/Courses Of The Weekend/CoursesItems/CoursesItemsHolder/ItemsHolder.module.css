@@ -1,0 +1,40 @@
+.holder{
+    width: 31.23181377303589%;
+    height: 366px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .holder{
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .holder{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 394px) {
+    .holder{
+        height: 346px;
+        width: 100%;
+    }
+}
+
+.button{
+    width: 125px;
+    height: 39px;
+    border-radius: 40px;
+    background: #2F2F2F;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #FCFCFC;
+    margin: 40px auto;
+    line-height: 35px;
+    text-align: center;
+}

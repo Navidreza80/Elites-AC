@@ -1,0 +1,46 @@
+.holder{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+}
+
+.comments{
+    color: #000000;
+    font-size: 16;
+    font-family: DannaMedium;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.rate{
+    width: 40%;
+    background: url(../../../../../../../assets/Images/icons8-star-48.png) repeat-x 50%;
+    background-size: 20%;
+    color: #000000;
+    font-size: 16;
+    font-family: DannaMedium;
+ text-align: right;
+}
+
+.number{
+    color: #000000;
+    font-size: 16;
+    font-family: DannaMedium;
+ text-align: right;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1142px) {
+    .holder{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .holder{
+        width: 100%;
+    }
+}

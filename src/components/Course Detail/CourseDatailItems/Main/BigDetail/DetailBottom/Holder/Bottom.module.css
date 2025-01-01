@@ -1,0 +1,17 @@
+.bottom{
+    width: 100%;
+    height: 80px;
+    border: 2px solid #DCDCDC;
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+}
+
+@media screen and (max-width: 698px) {
+    .bottom{
+        height: auto;
+        flex-flow: row wrap;
+        border: none;
+        border-radius: none;
+    }
+}

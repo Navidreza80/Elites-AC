@@ -1,0 +1,18 @@
+.border{
+    width: 400px;
+    height: 20px;
+    background: url("../../../../../../assets/Images/figmaBorder.png") 50% 50% no-repeat;
+    background-size: 100%;
+    transform: rotate(-14.68deg);
+    top: 85px;
+    position: absolute;
+    left: -110px;
+}
+
+@media screen and (max-width: 488px) {
+    .border{
+        background-size: 68%;
+        top:80px;
+        left: -130px;
+    }
+}

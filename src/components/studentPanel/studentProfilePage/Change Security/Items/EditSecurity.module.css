@@ -1,0 +1,35 @@
+.selected{
+    width: 70%;
+    background-color: #F1F1F1 !important;
+    color: #3772FF;
+    border-radius: 48px;
+    padding: 11px 16px;
+    text-align: center;
+}
+.button{
+    margin-top: 20px !important;
+    background: #3772FF;
+    border-radius: 32px;
+    padding: 11px;
+    font-family: DannaMedium;
+}
+.button:active{
+    scale: 1.1;
+}
+.checkBox{
+    appearance: none;
+    background: #efefef;
+    border: 1px solid #dcdcdc;
+    width: 21.6px;
+    height: 21.6px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.checkBox:checked{
+    appearance: auto;
+}
+.changeSecurityHolder{
+    width: 60%;
+    margin: 0 auto;
+}
+

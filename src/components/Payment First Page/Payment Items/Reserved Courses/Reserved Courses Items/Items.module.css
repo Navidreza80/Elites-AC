@@ -1,0 +1,190 @@
+.title {
+    width: 100%;
+    font-family: DannaBold;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    user-select: none;
+    padding-bottom: 27px;
+    border-bottom: 1.5px solid #9d9d9d;
+}
+
+.status {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #FCFCFC;
+    border-radius: 32px;
+    background: #FF37F5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+}
+
+.PaymentTitle {
+    font-family: DannaMedium;
+    color: rgb(255, 255, 255);
+    margin-top: 4px;
+}
+
+.coursesHolder {
+    width: 95%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.image {
+    width: 157px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.PaymentButton {
+    width: 30px;
+    height: 30px;
+    background: url(https://img.icons8.com/?size=100&id=7994&format=png&color=ffffff) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.PaymentHolder {
+    background-color: #000;
+    border-radius: 500px;
+    padding: 6px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 10px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.titleAndStatus {
+    display: flex;
+    flex-flow: row wrap;
+    width: 200px;
+    margin-right: 10px;
+    justify-content: right;
+}
+
+.titleCourse {
+    font-family: DannaDemiBold;
+    font-size: 20px;
+    color: black;
+    user-select: none;
+    width: 100%;
+    text-align: right;
+}
+
+.TitleAndImageHolder {
+    display: flex;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.PriceAndPayHolder {
+    display: flex;
+    padding: 10px 0;
+    flex-flow: row wrap;
+    justify-content: right;
+    width: 200px;
+}
+
+.price {
+    font-family: IranYekan;
+    font-size: 20px;
+    color: #000000;
+    user-select: none;
+    display: flex;
+    direction: rtl;
+    height: 30px;
+}
+
+.priceHolder {
+    display: flex;
+    gap: 5px;
+    flex-flow: row-reverse nowrap;
+    width: 100%;
+}
+
+.Date {
+    color: black;
+    font-size: 16px;
+    font-family: DannaDemiBold;
+
+
+}
+
+.DateHolder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    gap: 5px;
+    height: 100%;
+    width: 210px;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 901px) {
+    .coursesHolder {
+        height: auto;
+        flex-flow: column-reverse nowrap;
+        width: 48%;
+        border: 1px solid #dcdcdc;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    .TitleAndImageHolder {
+        width: 100%; 
+        flex-flow: column-reverse wrap;
+        padding: 0;
+    }
+    .image {
+        width: 100%; 
+        height: 240px;
+    }
+    .titleAndStatus {
+        width: 100%;
+        margin: 0;
+        flex-flow: row-reverse nowrap;
+        margin-top: 10px;
+    }
+    .titleCourse {
+        text-align: center;
+        height: 30px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .PriceAndPayHolder {
+        width: 100%;
+        flex-flow: row-reverse nowrap;
+    }
+    .status{
+        width: 130px;
+    }
+}
+@media screen and (max-width: 655px) {
+    .coursesHolder {
+        width: 90%;
+    }
+    .PriceAndPayHolder {
+        flex-flow: row-reverse wrap;
+        justify-content: center;
+    }
+    .priceHolder {
+        justify-content: center;
+    }
+}

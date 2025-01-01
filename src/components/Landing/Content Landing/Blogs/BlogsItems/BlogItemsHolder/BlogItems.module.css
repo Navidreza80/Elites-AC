@@ -1,0 +1,16 @@
+
+.holder{
+    width: 431px;
+    height: 365px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media screen and (max-width: 982px) {
+    .holder{
+        width: 322px;
+        height: 292px;
+    }
+}

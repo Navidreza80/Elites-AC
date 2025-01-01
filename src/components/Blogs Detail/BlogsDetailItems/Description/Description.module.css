@@ -1,0 +1,66 @@
+.containerDesc{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    align-items: center;
+    direction: rtl;
+}
+
+.title{
+    width: 100%;
+ text-align: right;
+    font-size: 20px;
+    font-family: DannaBold;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+ text-align: right;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.yourRate{
+    width: 80px;
+    height: 28px;
+    color: #3772FF;
+    font-size: 16px;
+    font-family: DannaDemiBold;
+ text-align: right;
+    margin-top: 15px;
+}
+
+.rate{
+    width: 160px;
+    background: url(../../../../assets/Images/icons8-star-gray.png) repeat-x;
+    background-size: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.copyLink{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #3772FF;
+    border-radius: 48px;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #3772FF;
+    margin-top: 13px;
+    text-align: right;
+    line-height: 30px;
+    display: none;
+}
+
+@media screen and (max-width: 698px) {
+    .copyLink{
+        display: block;
+    }
+}

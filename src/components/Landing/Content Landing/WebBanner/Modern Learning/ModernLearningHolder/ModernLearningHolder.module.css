@@ -1,0 +1,15 @@
+.modernLearning{
+    width: 331px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+@media screen and (max-width: 900px) {
+    .modernLearning{
+        width: 100%;
+        margin-top: 40px;
+        justify-content: center;
+    }
+}

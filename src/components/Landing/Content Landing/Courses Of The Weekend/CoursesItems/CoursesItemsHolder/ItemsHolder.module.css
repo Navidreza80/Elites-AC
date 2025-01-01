@@ -1,0 +1,68 @@
+.holder{
+    width: 322px;
+    height: 386px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    animation: visible linear forwards;
+    animation-timeline: view();
+    animation-range:  entry;
+    scale: 0;
+    opacity: 0;
+    background: white;
+    border-radius: 32px;
+    padding-bottom: 20px;
+}
+
+.containerBtn{
+    width: 100%;
+}
+
+
+@keyframes visible{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 40px auto;
+    border: none;
+    background-size: 300% 100%;
+    background: #2F2F2F;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #FCFCFC;
+    width: 125px;
+    height: 39px;
+
+    border-radius: 40px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button:active {
+    scale: 1.1;
+}
+
+.button:hover {
+    background-position: 100% 0 !important;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376) !important;
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}

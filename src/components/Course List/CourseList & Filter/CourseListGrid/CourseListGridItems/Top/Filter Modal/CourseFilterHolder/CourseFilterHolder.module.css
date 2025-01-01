@@ -1,0 +1,17 @@
+.filterHolder{
+    width: 100%;
+    left: 0;
+    height: auto;
+    padding: 10px;
+    border-radius: 32px;
+    border: 2px solid #DCDCDC;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    background: white;
+    transition: 0.3s;
+}

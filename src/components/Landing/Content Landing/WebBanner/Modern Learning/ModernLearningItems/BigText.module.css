@@ -1,0 +1,21 @@
+.bigText{
+    width: 77.28813559322034;
+    font-family: DannaBold;
+    font-size: 40px;
+    text-align: center;
+    color: #2F2F2F;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease forwards ;
+    position: relative;
+    top: -20px;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}

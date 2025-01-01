@@ -1,0 +1,25 @@
+.holder{
+    width: 400px;
+    min-height: 131.9px;
+    min-width: 270px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    gap: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.holder > img {
+    height: auto;
+    min-width: 116px;    
+}
+
+@media screen and (max-width: 587px) {
+    .holder{
+        width: 100%;
+    }
+}

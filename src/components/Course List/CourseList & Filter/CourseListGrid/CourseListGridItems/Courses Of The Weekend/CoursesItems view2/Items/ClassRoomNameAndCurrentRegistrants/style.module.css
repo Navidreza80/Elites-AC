@@ -1,0 +1,38 @@
+.holder{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classRoom,.NumberRegistrants{
+    font-size: 16px;
+    font-family: DannaBold;
+    color: #5E5E5E;
+    width: auto;
+    direction: rtl;
+}
+
+@media screen and (max-width: 1451px) {
+    .classRoom{
+        display: none;
+    }
+    .NumberRegistrants{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .NumberRegistrants{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .holder{
+        display: none;
+    }
+}

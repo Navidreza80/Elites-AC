@@ -1,0 +1,163 @@
+.holder {
+    text-align: right;
+    color: #2F2F2F;
+    font-size: 20px;
+    font-family: DannaBold;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    line-height: 35px;
+}
+
+.gridView {
+    background: url('../../../../../../assets/Images/gridView.png') 50% 50% no-repeat;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-size:75%;
+    border: 2px solid #000000;
+}
+
+.listView {
+    background: url('../../../../../../assets/Images/image.png') 50% 50% no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.selectedG {
+    scale: 1.1;
+}
+
+
+
+
+.categories {
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
+    border: 1px solid #2F2F2F;
+    border-radius: 34px;
+    width: auto;
+    color: #2F2F2F;
+    font-size: 18px;
+    font-family: DannaMedium;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.categories:active {
+    scale: 1.1;
+}
+
+.clearSort {
+    background: url(https://img.icons8.com/?size=100&id=71202&format=png&color=000000) 50% 50% no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.clearSort:active {
+    scale: 1.1;
+}
+
+.selected {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 34px;
+    width: auto;
+    color: red;
+    font-size: 18px;
+    font-family: DannaMedium;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        display: none;
+    }
+}
+
+.sortResponsive {
+    width: 103px;
+    height: 58px;
+    border-radius: 40px;
+    background: #2F2F2F url(../../../../../../assets/Images/sortWhite.png) 85% 50% no-repeat;
+    background-size: 25%;
+    padding-right: 50px;
+    color: white;
+    line-height: 60px;
+    font-family: DannaMedium;
+    font-size: 16px;
+    display: none;
+}
+
+.filterResponsive {
+    width: 103px;
+    height: 58px;
+    border-radius: 40px;
+    background: #2F2F2F url(../../../../../../assets/Images/filter.png) 85% 50% no-repeat;
+    background-size: 25%;
+    padding-right: 50px;
+    color: white;
+    line-height: 60px;
+    font-family: DannaMedium;
+    font-size: 16px;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .categories {
+        display: none;
+    }
+
+    .holder {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .gridView{
+        display: none;
+    }
+    .listView{
+        display: none;
+    }
+    .clearSort{
+        display: none;
+    }
+
+    .sortResponsive {
+        display: block;
+    }
+
+    .filterResponsive {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .holder {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 414px) {
+    .holder {
+        gap: 59px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 282px) {
+    .holder {
+        gap: 30px;
+        justify-content: center;
+    }
+}

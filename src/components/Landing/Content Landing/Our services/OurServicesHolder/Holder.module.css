@@ -1,0 +1,9 @@
+.holder{
+    width: 94.4444444444%;
+    height: 452px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 25px;
+}

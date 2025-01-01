@@ -1,0 +1,118 @@
+.page2{
+    display: flex;
+}
+.imagesHolder{
+    display: flex;
+    width: 876px;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 24px;
+    height: 100%;
+    padding-right: 20px;
+}
+.uploadModule{
+    position: fixed;
+    top: 200px;
+    left: 600px;
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    background: #3772FF;
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 100;
+}
+.holderUploadButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3772FF;
+    font-family: DannaDemiBold;
+    font-size: 16px;
+}
+.upload{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file{
+    display: none;
+}
+.fileHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tick{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: green url(https://img.icons8.com/?size=100&id=dCb8YyRBLOPP&format=png&color=FFFFFF) no-repeat 50% 50%;
+    background-size: 80%;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.holderProfiles{
+    position: relative;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: red url(https://img.icons8.com/?size=100&id=99961&format=png&color=FFFFFF) no-repeat 50% 50%;
+    background-size: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.labelFile{
+    width: 30px;
+    height: 30px;
+    background: white;
+    background: url(https://img.icons8.com/?size=100&id=12160&format=png&color=000000) no-repeat 50% 50%;
+    background-size: cover;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: white;
+}
+.uploadHeader{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.closeBtn{
+    width: 20px;
+    height: 20px;
+    background: url(../../../../../assets/Images/icons8-close-50.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+.img{
+    width: 189px;
+    height: 189px;
+    border-radius: 16px;
+}
+.selected{
+    width: 60%;
+    background-color: #F1F1F1 !important;
+    color: #3772FF;
+    border-radius: 48px;
+    padding: 11px 16px;
+    text-align: center;
+}
+
+

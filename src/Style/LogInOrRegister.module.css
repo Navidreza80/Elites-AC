@@ -1,0 +1,17 @@
+.container{
+    height: 39px;
+    border-radius: 40px;
+    background: #3772FF;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;  
+    font-family: DannaDemiBold;
+    margin-left: 5px;
+    padding: 0 10px 4px;
+}
+
+@media screen and (max-width: 1217px) {
+    .container{
+        font-size: 12px;
+    }
+}

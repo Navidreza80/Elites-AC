@@ -1,0 +1,10 @@
+.youtube{
+    width: 24px;
+    height: 24px;
+    background: url("../../../../../assets/Images/icons8-youtube-48(1).png") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.youtube:hover{
+    box-shadow: 0 0 15px #14FFEC;
+    transition: 0.5s;
+}

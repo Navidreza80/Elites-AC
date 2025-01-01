@@ -1,0 +1,145 @@
+.rightHolder{
+    height: 798px;
+    border-left: 1px solid #DCDCDC;
+    padding-left: 10px;
+}
+.checkBox{
+    width: 25px;
+    height: 25px;
+
+}
+.right{
+    width: 210px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    gap: 16px;
+}
+.left{
+    width: 600px !important;
+    padding-right: 24px !important;
+}
+.right > .pages,.right > div{
+    width: 220px;
+    color: #707070;
+    font-size: 18px;
+    font-family: DannaDemiBold;
+    line-height: 25.74px;
+  text-align: right;
+    cursor: pointer;
+    height: 100%;
+}
+.right > div > h1{
+    background-color: #ebebeb;
+    color: #3772FF;
+    border-radius: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.page2{
+    height: 928px;
+    display: flex;
+    user-select: none;
+}
+.Input{
+    background-color: #FCFCFC;
+    width: 100% !important;
+    height: 48px;
+    border-radius: 24px;
+    padding-right: 10px;
+    border: 1px solid #DCDCDC;
+    font-size: 16px;
+    font-family: DannaMedium;
+    line-height: 17.16px;
+  text-align: right;
+    color: #707070;
+}
+.bigDiv{
+    width: 100%;
+}
+.smallDiv{
+    width: 46.5%;
+}
+.smallDiv ,.bigDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+.smallDiv > h1,.bigDiv > h1{
+    font-size: 16px;
+    font-family: DannaDemiBold;
+    line-height: 22.88px;
+  text-align: right;
+    color: #2F2F2F;
+}
+.left > div{
+    display: flex;
+    gap: 39px;
+    width: 100% !important;
+}
+.aboutMe > div > input{
+    height: 123px;
+}
+.inputGender{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputGender > div{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 8px;
+    color: black;
+    padding-top: 5px;
+}
+
+.inputGender > div > h1{
+    color: rgb(0, 0, 0);
+    font-family: DannaMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.GenderInput{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    appearance: none;
+    border: 1px solid #d4d4d8;
+    border-radius: 50px;
+}
+
+.GenderInput:checked{
+    appearance: auto;
+}
+
+.inputGender >  button{
+    color: #3772FF;
+    font-size: 14px;
+    font-family: DannaDemiBold;
+}
+.left > button{
+    background-color: #3772FF;
+    color: #FCFCFC;
+    font-size: 16px;
+    font-family: DannaMedium;
+    padding: 12.5px 16px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.left > button:active{
+    scale: 1.1;
+}
+.selected{
+    width: 210px;
+    background-color: #F1F1F1 !important;
+}
+@media screen and(max-width: 570px) {
+    .right{
+        width: 150px;
+    }
+}
+

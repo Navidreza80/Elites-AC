@@ -1,0 +1,83 @@
+.teacher1{
+    width: 100%;
+    height: auto;
+    background: #F1F1F1;
+    color: #707070;
+    font-size: 12px;
+    padding: 15px;
+    font-family: DannaMedium;
+ text-align: right;
+    border-radius: 16px;
+    direction: rtl;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.teacher{
+    width: 100%;
+    display: block;
+    padding: 10px 15px 10px 15px;
+ text-align: right;
+    font-family: DannaMedium;
+    color: black;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.input{
+    display: none;
+}
+.type{
+    background: url(https://img.icons8.com/?size=100&id=42472&format=png&color=000000);
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+}
+.input:checked + label {
+    font-size: 15px;
+    font-family: DannaBold;
+}
+.titleTeacher{
+    color: #2F2F2F;
+    font-size: 16px;
+    font-family: DannaMedium;
+    width: 80%;
+    padding-right: 5px;
+ text-align: right;
+}
+
+.holderIconAndTitle{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
+    direction: rtl;
+}
+.arrowDown{
+    width: 20px;
+    height: 20px;
+    background: url(../../../../../../assets/Images/arrow down.png);
+    background-size: cover;
+}
+.arrowUp{
+    width: 20px;
+    height: 20px;
+    background: url(../../../../../../assets/Images/arrow up.png);
+    background-size: cover;
+}
+
+.filterTeacher{
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background: rgb(178, 178, 178);
+}

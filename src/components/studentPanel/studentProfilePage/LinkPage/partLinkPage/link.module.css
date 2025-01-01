@@ -1,0 +1,11 @@
+.selected{
+    width: 40%;
+    background-color: #F1F1F1 !important;
+    color: #3772FF;
+    border-radius: 48px;
+    padding: 11px 16px;
+    text-align: center;
+}
+
+
+

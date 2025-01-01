@@ -1,0 +1,157 @@
+.Status{
+    height: 100%;
+    width: 20%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    flex-flow:  row wrap;
+}
+.topS{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+.bottomS{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: black;
+    width: 100%;
+    height: 27px;
+    border-radius: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+ text-align: right;
+}
+
+.Level{
+    border-left: 2px solid #DCDCDC;
+    height: 100%;
+    width: 20%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    flex-flow:  row wrap;
+}
+.topL{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+.bottomL{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: black;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.Category{
+    border-left: 2px solid #DCDCDC;
+    height: 100%;
+    width: 20%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    flex-flow:  row wrap;
+}
+.topC{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+.bottomC{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #FCFCFC;
+    padding-left: 4px;
+    padding-right: 4px;
+    background: #3772FF;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.Teacher{
+    height: 100%;
+    width: 30%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    flex-flow:  row wrap;
+    border-left: 2px solid #DCDCDC;
+}
+.topT{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+.bottomT{
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 698px) {
+    .Teacher{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid #DCDCDC;
+        border-radius: 16px 0 0 16px;
+        height: 80px;
+    }
+    .Status{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid #DCDCDC;
+        border-radius: 16px 0 0 16px;
+        height: 80px;
+    }
+    .Category{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid #DCDCDC;
+        border-radius: 0 16px 16px 0;
+        height: 80px;
+    }
+    .Level{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid #DCDCDC;
+        border-radius: 0 16px 16px 0;
+        height: 80px;
+    }
+}

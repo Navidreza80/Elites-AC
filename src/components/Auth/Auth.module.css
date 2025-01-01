@@ -1,0 +1,102 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page{
+    width: 100%;
+    max-width: 1536px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 90px 20px 20px;
+}
+.page2{
+    background-color: #f1f1f1;
+    width: 55%;
+    border-radius: 32px;
+    display: flex;
+    justify-content: right;
+    flex-flow: column wrap;
+    gap: 70px;
+    padding: 20px;
+}
+.logoHolder{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    height: 50px;
+}
+.logo{
+    background: url(../../assets/Images/BahrAcTextAndImage.png);
+    background-size: cover;
+    width: 210px;
+    height: 50px;
+}
+.textWelcome{
+    width: 100%;
+    justify-content: right;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100px;
+}
+.textWelcome > h1:first-child{
+    color: #2F2F2F;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 45.76px;
+    text-align: right;
+
+}
+.textWelcome > h1:last-child{
+    color: rgb(107 114 128);
+    width: 100%;
+    text-align: right;
+    font-weight: 600;
+}
+.laptopHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.laptop{
+    width: 368px;
+    height: 309px;
+    background: url(https://www.figma.com/file/DFWKDvBB5J1oVrvpxRyFK2/image/063a86db2252b8c9c38fc789bcd1287b9320cb98)no-repeat 50% 50%;
+    background-size: 100%;
+}
+.right{
+    padding-top: 20px;
+    position: relative;
+    width: 42%;
+}
+
+@media screen and (max-width:889px){
+    .page{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .page2{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    .navigate{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+    }
+    .navigate > div{
+        width: 100%;
+    }
+    form > div:nth-child(1) > div > h1{
+        text-align: center;
+        width: 100%;
+    }
+}

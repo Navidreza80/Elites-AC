@@ -1,0 +1,19 @@
+.SocialMediasHolder {
+    width: 241px;
+    height: 48px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1328px) {
+    .SocialMediasHolder {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .SocialMediasHolder {
+        margin-bottom: 15px;
+    }
+}

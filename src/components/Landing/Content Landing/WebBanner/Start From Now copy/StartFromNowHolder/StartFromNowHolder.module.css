@@ -1,0 +1,38 @@
+.startFromNow{
+    width: 11.03%;
+    margin-left: 6.5%;
+    height: 44.4%;
+    flex-flow: row wrap;
+    justify-content: right;
+    gap: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 1306px) {
+    .startFromNow{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .startFromNow{
+        width: 20%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1007px) {
+    .startFromNow{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .startFromNow{
+        margin-top: 50px;
+        width: 100%;
+        justify-content: center;
+        height: auto;
+        display: flex;
+    }
+}

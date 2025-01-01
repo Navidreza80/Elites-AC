@@ -1,0 +1,33 @@
+.holder{
+    width: 53.33333333333333%;
+    height: 84.76190476190476%;
+    border-radius: 24px;
+    margin-left: 3%;
+    background: url("../../../../../../assets/Images/Graphic.png");
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    animation: visible linear forwards;
+    animation-timeline: view();
+    animation-range:  entry;
+    scale: 0;
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 900px) {
+    .holder{
+        background: url("../../../../../../assets/Images/GraphicVertical.png") no-repeat 50% 50%;
+        background-size: cover;
+        height: 900px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}
+
+@keyframes visible{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}

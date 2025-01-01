@@ -1,0 +1,77 @@
+.Holder{
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    direction: rtl;
+    padding-bottom: 40px ;
+}
+.Holder > div:last-child{
+    border: none;
+}
+.Images,.Discription{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 1px solid #dadada;
+}
+.Discription{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.Images > img{
+    width: 45%;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+.Images > input{
+    width: 45%;
+}
+.DiscriptionCompare{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.titleCompare{
+    font-size: 16px;
+    font-weight: 600;
+    color: #81858b;
+    margin: 10px 0;
+}
+.discCompare{
+    font-size: 18px;
+    font-weight: 600;
+    color: #252525;
+    width: 411px;
+    text-align: center;
+}
+.searchHolder{
+    width: 45%;
+}
+.results{
+    border: 1px solid #252525;
+    border-radius: 2px;
+}
+.results > div{
+    background: #f0f0f0;
+    display: flex;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.results > div > img{
+    height: 40px;
+    border-radius: 5px;
+}
+.results > div > h1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #252525;
+    padding-right: 10px;
+}
+
+.Line{
+    width: auto;
+}

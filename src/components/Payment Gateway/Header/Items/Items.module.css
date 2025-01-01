@@ -1,0 +1,37 @@
+.logo{
+    width: 130.2px;
+    height: 104.083px;
+}
+
+.logo2{
+    width: 140px;
+    height: 122px;
+    padding: 21px 10px;
+}
+.titleHolder{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 570px;
+    margin-top: 45px;
+    height: 83px;
+}
+.Link{
+    color: #fff;
+    background-color: red;
+    width: 100%;
+    border-radius: 100%;
+    text-align: center; height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.title{
+    font-family: inherit;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    width: 714px;
+    height: 64px;
+    line-height: 70px;
+    text-align: center;
+}

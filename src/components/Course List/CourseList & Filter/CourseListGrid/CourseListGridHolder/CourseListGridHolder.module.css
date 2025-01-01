@@ -1,0 +1,21 @@
+.courseListGridHolder{
+    width: 75.80882352941176%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    direction: rtl;
+    flex-flow: row wrap;
+    height: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .courseListGridHolder{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .courseListGridHolder{
+        justify-content: center;
+    }
+}

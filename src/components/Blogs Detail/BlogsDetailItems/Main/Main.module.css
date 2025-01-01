@@ -1,0 +1,13 @@
+.main{
+    width: 100%;
+    height: 424px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+@media screen and (max-width: 1078px) {
+    .main{
+        height: auto;
+    }
+}

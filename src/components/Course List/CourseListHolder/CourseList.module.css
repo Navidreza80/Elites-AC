@@ -1,0 +1,14 @@
+.courseListHolder{
+    width: 94.444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444%;
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+    margin-top: 70px;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

@@ -1,0 +1,1020 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: DannaThin;
+    src: url(./assets/Fonts/dana-fanum-thin.ttf);
+  }
+
+  @font-face {
+    font-family: DannaExtraLight;
+    src: url(./assets/Fonts/dana-fanum-extralight.ttf);
+  }
+
+  @font-face {
+    font-family: DannaLight;
+    src: url(./assets/Fonts/dana-fanum-light.ttf);
+  }
+
+  @font-face {
+    font-family: DannaNormal;
+    src: url(./assets/Fonts/dana-fanum-regular.ttf);
+  }
+
+  @font-face {
+    font-family: DannaMedium;
+    src: url(./assets/Fonts/dana-fanum-medium.ttf);
+  }
+
+  @font-face {
+    font-family: DannaDemiBold;
+    src: url(./assets/Fonts/dana-fanum-demibold.ttf);
+  }
+
+  @font-face {
+    font-family: DannaBold;
+    src: url(./assets/Fonts/dana-fanum-bold.ttf);
+  }
+
+  @font-face {
+    font-family: DannaExtraBold;
+    src: url(./assets/Fonts/dana-fanum-extrabold.ttf);
+  }
+
+  @font-face {
+    font-family: IranYekan;
+    src: url(./assets/Fonts/iranyekanwebbold.ttf);
+  }
+}
+
+.DannaM {
+  font-family: DannaMedium;
+}
+
+:root {
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FCFCFC;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.error {
+  color: red;
+  font-family: DannaMedium;
+  text-align: right;
+  width: 100%;
+}
+
+/*
+[data-theme="dark"] {
+  background: #0C134F !important;
+  color: #D4ADFC !important;
+  border-color: #5C469C !important;
+}
+[data-theme="darkNoBG"] {
+  color: #D4ADFC !important;
+  border-color: #5C469C !important;
+}
+[data-theme="darkSmall"] {
+  background: #1D267D !important;
+  color: #D4ADFC !important;
+  border-color: #5C469C !important;
+}
+*/
+
+
+/* [data-theme="dark"] {
+  background: #202020 !important;
+  color: #ffffff !important;
+  border-color: #7b7b7b !important;
+}
+[data-theme="darkNoBG"] {
+  color: #ffffff !important;
+  border-color: #7b7b7b !important;
+}
+[data-theme="darkSmall"] {
+  background: #808080 !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+} */
+
+[data-theme="dark"] {
+  background: #202020 !important;
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="darkCoursesHolder"] {
+  background: #202020 !important;
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+  box-shadow: 0px 0px 10px 2px #fff !important;
+}
+
+[data-theme="darkPath"] {
+  stroke: #14FFEC !important;
+}
+
+[data-theme="darkNoBG"] {
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="darkNoBGDisc"] {
+  color: #00897c !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="darkSmall"] {
+  background-color: #323232 !important;
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="darkOrLight"] {
+  background: white url("https://img.icons8.com/?size=100&id=q4yXFoEnYRH7&format=png&color=000000") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+}
+
+[data-theme="notification"] {
+  background-color: #323232 !important;
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="darkClearSort"] {
+  background: url("https://img.icons8.com/?size=100&id=71202&format=png&color=14FFEC") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+[data-theme="darkSearch"] {
+  color: #14FFEC !important;
+  background: #2f2f2f url("https://img.icons8.com/?size=100&id=132&format=png&color=14FFEC") no-repeat 50% 50% !important;
+  background-size: 60% !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="search"] {
+  color: #14FFEC !important;
+}
+
+[data-theme="level"] {
+  color: #14FFEC !important;
+}
+
+[data-theme="teacher"] {
+  color: #14FFEC !important;
+}
+
+[data-theme="date"] {
+  color: #14FFEC !important;
+}
+
+[data-theme="cat"] {
+  color: #14FFEC !important;
+}
+
+[data-theme="view"] {
+  background: url("https://img.icons8.com/?size=25&id=85028&format=png&color=14FFEC") no-repeat 100% 50% !important;
+}
+
+[data-theme="minibasket"] {
+  background: url("https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=14FFEC") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+  border-color: #0D7377 !important;
+}
+
+[data-theme="dateBlogFilter"] {
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=14FFEC") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="categoryBlogFilter"] {
+  background: url("https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=14FFEC") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="DateBlog"] {
+  color: #14FFEC !important;
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=14FFEC") no-repeat 0% 50% !important;
+  border-color: #0D7377 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="ViewBlog"] {
+  color: #14FFEC !important;
+  background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=14FFEC") no-repeat 0% 50% !important;
+  border-color: #0D7377 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="gridView"] {
+  background: url(https://img.icons8.com/?size=100&id=20228&format=png&color=14ffec) 50% 50% no-repeat !important;
+  background-size: 90% 120% !important;
+  border: 2px solid #14ffec !important;
+}
+
+[data-theme="listView"] {
+  background: url(https://img.icons8.com/?size=100&id=82758&format=png&color=14FFEC) 50% 50% no-repeat !important;
+  background-size: 100% !important;
+  border: 2px solid #14ffec !important;
+}
+
+[data-theme="darkLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="darkDisLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dark2*/
+
+[data-theme="dark2"] {
+  background: #181C14 !important;
+  color: #ECDFCC !important;
+  border-color: #697565 !important;
+}
+
+[data-theme="dark2CoursesHolder"] {
+  background: #202020 !important;
+  color: #ECDFCC !important;
+  border-color: #697565 !important;
+  box-shadow: 0px 0px 10px 2px #fff !important;
+}
+
+[data-theme="dark2Path"] {
+  stroke: #ECDFCC !important;
+}
+
+[data-theme="dark2NoBG"] {
+  color: #ECDFCC !important;
+  border-color: #e0caa9 !important;
+}
+
+[data-theme="dark2NoBGDisc"] {
+  color: #e0caa9 !important;
+  border-color: #697565 !important;
+}
+
+[data-theme="dark2Small"] {
+  background-color: #3C3D37 !important;
+  color: #ECDFCC !important;
+  border-color: #697565 !important;
+}
+
+[data-theme="dark2OrLight"] {
+  background: white url("https://img.icons8.com/?size=100&id=q4yXFoEnYRH7&format=png&color=000000") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+}
+
+[data-theme="darkClearSort2"] {
+  background: url("https://img.icons8.com/?size=100&id=71202&format=png&color=ECDFCC") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+[data-theme="dark2Search"] {
+  color: #ECDFCC !important;
+  background: #3C3D37 url("https://img.icons8.com/?size=100&id=132&format=png&color=ECDFCC") no-repeat 50% 50% !important;
+  background-size: 60% !important;
+  border-color: #697565 !important;
+}
+
+[data-theme="notification2"] {
+  background-color: #3C3D37 !important;
+  color: #ECDFCC !important;
+  border-color: #697565 !important;
+}
+
+[data-theme="level2"] {
+  color: #ECDFCC !important;
+}
+
+[data-theme="teacher2"] {
+  color: #ECDFCC !important;
+}
+
+[data-theme="date2"] {
+  color: #ECDFCC !important;
+}
+
+[data-theme="cat2"] {
+  color: #ECDFCC !important;
+}
+
+[data-theme="view2"] {
+  background: url("https://img.icons8.com/?size=25&id=85028&format=png&color=ECDFCC") no-repeat 100% 50% !important;
+}
+
+[data-theme="search2"] {
+  color: #ECDFCC !important;
+}
+
+[data-theme="minibasket2"] {
+  background: url("https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=ECDFCC") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+  border-color: #697565 !important;
+}
+
+[data-theme="dateBlogFilter2"] {
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=ECDFCC") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="categoryBlogFilter2"] {
+  background: url("https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=ECDFCC") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="DateBlog2"] {
+  color: #ECDFCC !important;
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=ECDFCC") no-repeat 0% 50% !important;
+  border-color: #697565 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="ViewBlog2"] {
+  color: #ECDFCC !important;
+  background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=ECDFCC") no-repeat 0% 50% !important;
+  border-color: #697565 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="gridView2"] {
+  background: url(https://img.icons8.com/?size=100&id=20228&format=png&color=ECDFCC) 50% 50% no-repeat !important;
+  background-size: 90% 120% !important;
+  border: 2px solid #ECDFCC !important;
+}
+
+[data-theme="listView2"] {
+  background: url(https://img.icons8.com/?size=100&id=82758&format=png&color=ECDFCC) 50% 50% no-repeat !important;
+  background-size: 100% !important;
+  border: 2px solid #ECDFCC !important;
+}
+
+[data-theme="darkLikeDetail2"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="darkDisLikeDetail2"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*green  theme*/
+
+
+[data-theme="green"] {
+  background: #1F4529 !important;
+  color: #fff !important;
+  border-color: #EED3B1 !important;
+}
+
+[data-theme="greenCoursesHolder"] {
+  background: #47663B !important;
+  color: #fff !important;
+  border-color: #EED3B1 !important;
+  box-shadow: 0px 0px 10px 2px #fff !important;
+}
+
+[data-theme="greenPath"] {
+  stroke: #fff !important;
+}
+
+[data-theme="greenNoBG"] {
+  color: #fff !important;
+  border-color: #e0caa9 !important;
+}
+
+[data-theme="greenNoBGDisc"] {
+  color: #d6d7d1 !important;
+  border-color: #EED3B1 !important;
+}
+
+[data-theme="greenSmall"] {
+  background-color: #47663B !important;
+  color: #fff !important;
+  border-color: #EED3B1 !important;
+}
+
+[data-theme="greenOrLight"] {
+  background: rgb(68, 120, 0) url("https://img.icons8.com/?size=100&id=q4yXFoEnYRH7&format=png&color=000000") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+}
+
+[data-theme="search3"] {
+  color: #fff !important;
+}
+
+[data-theme="greenClearSort"] {
+  background: url("https://img.icons8.com/?size=100&id=71202&format=png&color=ffffff") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+[data-theme="greenSearch"] {
+  color: #fff !important;
+  background: #47663B url("https://img.icons8.com/?size=100&id=132&format=png&color=ffffff") no-repeat 50% 50% !important;
+  background-size: 60% !important;
+  border-color: #EED3B1 !important;
+}
+
+[data-theme="level3"] {
+  color: #fff !important;
+}
+
+[data-theme="notification3"] {
+  background-color: #47663B !important;
+  color: #fff !important;
+  border-color: #EED3B1 !important;
+}
+
+[data-theme="teacher3"] {
+  color: #fff !important;
+}
+
+[data-theme="date3"] {
+  color: #fff !important;
+}
+
+[data-theme="cat3"] {
+  color: #fff !important;
+}
+
+[data-theme="view3"] {
+  background: url("https://img.icons8.com/?size=25&id=85028&format=png&color=ffffff") no-repeat 100% 50% !important;
+}
+
+[data-theme="minibasket3"] {
+  background: url("https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=ffffff") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+  border-color: #EED3B1 !important;
+}
+
+[data-theme="dateBlogFilter3"] {
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=ffffff") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="categoryBlogFilter3"] {
+  background: url("https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=ffffff") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="DateBlog3"] {
+  color: #fff !important;
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=ffffff") no-repeat 0% 50% !important;
+  border-color: #EED3B1 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="ViewBlog3"] {
+  color: #fff !important;
+  background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=ffffff") no-repeat 0% 50% !important;
+  border-color: #EED3B1 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="gridView3"] {
+  background: url(https://img.icons8.com/?size=100&id=20228&format=png&color=ffffff) 50% 50% no-repeat !important;
+  background-size: 90% 120% !important;
+  border: 2px solid #EED3B1 !important;
+}
+
+[data-theme="listView3"] {
+  background: url(https://img.icons8.com/?size=100&id=82758&format=png&color=ffffff) 50% 50% no-repeat !important;
+  background-size: 100% !important;
+  border: 2px solid #EED3B1 !important;
+}
+
+[data-theme="greenLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="greenDisLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pink  theme*/
+
+
+[data-theme="pink"] {
+  background: #7469B6 !important;
+  color: #ffffff !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="pinkCoursesHolder"] {
+  background: #7469B6 !important;
+  color: #fff !important;
+  border-color: #AD88C6 !important;
+  box-shadow: 0px 0px 10px 2px #fff !important;
+}
+
+[data-theme="pinkPath"] {
+  stroke: #FFE6E6 !important;
+}
+
+[data-theme="pinkNoBG"] {
+  color: #ffffff !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="pinkNoBGDisc"] {
+  color: #fdecfe !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="pinkSmall"] {
+  background-color: #E1AFD1 !important;
+  color: #ffffff !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="pinkOrLight"] {
+  background: #7469B6 url("https://img.icons8.com/?size=100&id=q4yXFoEnYRH7&format=png&color=000000") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+}
+
+[data-theme="search4"] {
+  color: #fff !important;
+}
+
+[data-theme="pinkClearSort"] {
+  background: url("https://img.icons8.com/?size=100&id=71202&format=png&color=FFE6E6") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+[data-theme="pinkSearch"] {
+  color: #fff !important;
+  background: #7469B6 url("https://img.icons8.com/?size=100&id=132&format=png&color=FFE6E6") no-repeat 50% 50% !important;
+  background-size: 60% !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="level4"] {
+  color: #fff !important;
+}
+
+[data-theme="notification4"] {
+  background-color: #7469B6 !important;
+  color: #fff !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="teacher4"] {
+  color: #fff !important;
+}
+
+[data-theme="date4"] {
+  color: #fff !important;
+}
+
+[data-theme="cat4"] {
+  color: #fff !important;
+}
+
+[data-theme="view4"] {
+  background: url("https://img.icons8.com/?size=25&id=85028&format=png&color=FFE6E6") no-repeat 100% 50% !important;
+}
+
+[data-theme="minibasket4"] {
+  background:#7469B6 url("https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=FFE6E6") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+  border-color: #AD88C6 !important;
+}
+
+[data-theme="dateBlogFilter4"] {
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=FFE6E6") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="categoryBlogFilter4"] {
+  background: url("https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=FFE6E6") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="DateBlog4"] {
+  color: #E8ECD7 !important;
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=FFE6E6") no-repeat 0% 50% !important;
+  border-color: #AD88C6 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="ViewBlog4"] {
+  color: #E8ECD7 !important;
+  background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=FFE6E6") no-repeat 0% 50% !important;
+  border-color: #AD88C6 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="gridView4"] {
+  background: url(https://img.icons8.com/?size=100&id=20228&format=png&color=FFE6E6) 50% 50% no-repeat !important;
+  background-size: 90% 120% !important;
+  border: 2px solid #AD88C6 !important;
+}
+
+[data-theme="listView4"] {
+  background: url(https://img.icons8.com/?size=100&id=82758&format=png&color=FFE6E6) 50% 50% no-repeat !important;
+  background-size: 100% !important;
+  border: 2px solid #AD88C6 !important;
+}
+
+[data-theme="pinkLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="pinkDisLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blue */
+
+[data-theme="blue"] {
+  background: #5F8895  !important;
+  color: #fff !important;
+  border-color: #F1F0E8 !important;
+}
+
+[data-theme="blueCoursesHolder"] {
+  background: #5F8895  !important;
+  color: #fff !important;
+  border-color: #F1F0E8 !important;
+  box-shadow: 0px 0px 10px 2px #fff !important;
+}
+
+[data-theme="bluePath"] {
+  stroke: #fff !important;
+}
+
+[data-theme="blueNoBG"] {
+  color: #fff !important;
+  border-color: #e0caa9 !important;
+}
+
+[data-theme="blueNoBGDisc"] {
+  color: #fff !important;
+  border-color: #F1F0E8 !important;
+}
+
+[data-theme="blueSmall"] {
+  background-color: #46626B !important;
+  color: #fff !important;
+  border-color: #F1F0E8 !important;
+}
+
+[data-theme="blueOrLight"] {
+  background: #5F8895  url("https://img.icons8.com/?size=100&id=q4yXFoEnYRH7&format=png&color=000000") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+}
+
+[data-theme="search5"] {
+  color: #fff !important;
+}
+
+[data-theme="blueClearSort"] {
+  background: url("https://img.icons8.com/?size=100&id=71202&format=png&color=E5E1DA") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+[data-theme="blueSearch"] {
+  color: #fff !important;
+  background: #5F8895  url("https://img.icons8.com/?size=100&id=132&format=png&color=E5E1DA") no-repeat 50% 50% !important;
+  background-size: 60% !important;
+  border-color: #F1F0E8 !important;
+}
+
+[data-theme="level5"] {
+  color: #fff !important;
+}
+
+[data-theme="notification5"] {
+  background-color: #5F8895  !important;
+  color: #fff !important;
+  border-color: #F1F0E8 !important;
+}
+
+[data-theme="teacher5"] {
+  color: #fff !important;
+}
+
+[data-theme="date5"] {
+  color: #fff !important;
+}
+
+[data-theme="cat5"] {
+  color: #fff !important;
+}
+
+[data-theme="view5"] {
+  background: url("https://img.icons8.com/?size=25&id=85028&format=png&color=E5E1DA") no-repeat 100% 50% !important;
+}
+
+[data-theme="minibasket5"] {
+  background: url("https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=E5E1DA") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+  border-color: #F1F0E8 !important;
+}
+
+[data-theme="dateBlogFilter5"] {
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=E5E1DA") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="categoryBlogFilter5"] {
+  background: url("https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=E5E1DA") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="DateBlog5"] {
+  color: #fff !important;
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=E5E1DA") no-repeat 0% 50% !important;
+  border-color: #F1F0E8 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="ViewBlog5"] {
+  color: #fff !important;
+  background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=E5E1DA") no-repeat 0% 50% !important;
+  border-color: #F1F0E8 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="gridView5"] {
+  background: url(https://img.icons8.com/?size=100&id=20228&format=png&color=E5E1DA) 50% 50% no-repeat !important;
+  background-size: 90% 120% !important;
+  border: 2px solid #F1F0E8 !important;
+}
+
+[data-theme="listView5"] {
+  background: url(https://img.icons8.com/?size=100&id=82758&format=png&color=E5E1DA) 50% 50% no-repeat !important;
+  background-size: 100% !important;
+  border: 2px solid #F1F0E8 !important;
+}
+
+[data-theme="blueLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="blueDisLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* red */
+
+[data-theme="red"] {
+  background: #6C0345 !important;
+  color: #FFF8DC !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="redCoursesHolder"] {
+  background: #6C0345 !important;
+  color: #FFF8DC !important;
+  border-color: #DC6B19 !important;
+  box-shadow: 0px 0px 10px 2px #fff !important;
+}
+
+[data-theme="redPath"] {
+  stroke: #FFF8DC !important;
+}
+
+[data-theme="redNoBG"] {
+  color: #FFF8DC !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="redNoBGDisc"] {
+  color: #fff5ce !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="redSmall"] {
+  background-color: #F7C566 !important;
+  color: #FFF8DC !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="redOrLight"] {
+  background: #6C0345 url("https://img.icons8.com/?size=100&id=q4yXFoEnYRH7&format=png&color=000000") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+}
+
+[data-theme="search6"] {
+  color: #FFF8DC !important;
+}
+
+[data-theme="redClearSort"] {
+  background: url("https://img.icons8.com/?size=100&id=71202&format=png&color=FFF8DC") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+[data-theme="redSearch"] {
+  color: #FFF8DC !important;
+  background: #F7C566 url("https://img.icons8.com/?size=100&id=132&format=png&color=FFF8DC") no-repeat 50% 50% !important;
+  background-size: 60% !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="level6"] {
+  color: #FFF8DC !important;
+}
+
+[data-theme="notification6"] {
+  background-color: #F7C566 !important;
+  color: #FFF8DC !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="teacher6"] {
+  color: #FFF8DC !important;
+}
+
+[data-theme="date6"] {
+  color: #FFF8DC !important;
+}
+
+[data-theme="cat6"] {
+  color: #FFF8DC !important;
+}
+
+[data-theme="view6"] {
+  background: url("https://img.icons8.com/?size=25&id=85028&format=png&color=FFF8DC") no-repeat 100% 50% !important;
+}
+
+[data-theme="minibasket6"] {
+  background: url("https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=FFF8DC") 50% 50% no-repeat !important;
+  background-size: 60% !important;
+  border-color: #DC6B19 !important;
+}
+
+[data-theme="dateBlogFilter6"] {
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=FFF8DC") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="categoryBlogFilter6"] {
+  background: url("https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=FFF8DC") 50% 50% no-repeat !important;
+  background-size: 25px !important;
+}
+
+[data-theme="DateBlog6"] {
+  color: #FFF8DC !important;
+  background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=FFF8DC") no-repeat 0% 50% !important;
+  border-color: #DC6B19 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="ViewBlog6"] {
+  color: #FFF8DC !important;
+  background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=FFF8DC") no-repeat 0% 50% !important;
+  border-color: #DC6B19 !important;
+  background-size: 18px !important;
+}
+
+[data-theme="gridView6"] {
+  background: url(https://img.icons8.com/?size=100&id=20228&format=png&color=DC6B19) 50% 50% no-repeat !important;
+  background-size: 90% 120% !important;
+  border: 2px solid #DC6B19 !important;
+}
+
+[data-theme="listView6"] {
+  background: url(https://img.icons8.com/?size=100&id=82758&format=png&color=DC6B19) 50% 50% no-repeat !important;
+  background-size: 100% !important;
+  border: 2px solid #DC6B19 !important;
+}
+
+[data-theme="redLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="redDisLikeDetail"] {
+  background-image: url('https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=dcdcdc') !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background: #3772FF;
+  transform-origin: 0%;
+  z-index: 10000000000;
+}

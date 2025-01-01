@@ -1,0 +1,154 @@
+.holder{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.reserve:active{
+    scale: 1.1;
+}
+.reserve{
+    cursor: pointer;
+    width: 28.2798833819242%;
+    height: 100%;
+    color: #FCFCFC;
+    font-family: DannaMedium;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 12%;
+    border: 2px solid #3772FF;
+    color: #3772FF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.isFaved{
+        width: 48.39650145772595%;
+    height: 100%;
+    color: #FCFCFC;
+    font-family: DannaBold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F2F2F url(https://img.icons8.com/?size=100&id=7690&format=png&color=FFFFFF) 95% 40% no-repeat;
+    background-size: 8%;
+}
+.AddToFav:active{
+    scale: 1.1;
+}
+.AddToFav{
+        cursor: pointer;
+    width: 48.39650145772595%;
+    height: 100%;
+    color: #FCFCFC;
+    font-family: DannaBold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F2F2F url(../../../../../../assets/Images/icons8-archive-32white.png) 90% 50% no-repeat;
+    background-size: 8%;
+}
+.like:active{
+    scale: 1.1;
+}
+.like{
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: url(https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=000000) 50% 50% no-repeat;
+    border: 1px solid #DCDCDC;
+}
+.liked{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: #3772FF url(https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=FFFFFF) 50% 50% no-repeat;
+}
+.dislike:active{
+    scale: 1.1;
+}
+.dislike{
+        cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: url(https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=000000) 50% 50% no-repeat;
+    border: 1px solid #DCDCDC;
+    rotate: 180deg;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.disliked{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: #3772FF url(https://img.icons8.com/?size=24&id=SVZUo0RhRuHJ&format=png&color=FFFFFF) 50% 50% no-repeat;
+    border: 1px solid #DCDCDC;
+    rotate: 180deg;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1142px) {
+    .dislike{
+        width: 40px;
+        height: 40px;
+    }
+    .like{
+        width: 40px;
+        height: 40px;
+    }
+    .AddToFav{
+        width: 30%;
+        font-size: 12px;
+        background-image: none;
+    }
+    .reserve{
+        width: 20%;
+        font-size: 12px;
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 1078px) {
+    .holder{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .holder{
+        height: auto;
+        margin-top: 10px;
+    }
+    .reserve{
+        display: none;
+    }
+    .AddToFav{
+        width: 170px;
+        font-size: 16px;
+    }
+    .dislike{
+        width: 56px;
+        height: 56px;
+    }
+    .like{
+        width: 56px;
+        height: 56px;
+    }
+}

@@ -1,0 +1,12 @@
+.holder{
+    width: 94.444444444444%;
+    margin-top: 70px;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}

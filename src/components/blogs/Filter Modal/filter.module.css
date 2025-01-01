@@ -1,0 +1,190 @@
+.filter{
+    width: 19.8%;
+    height: 100%;
+    top: 413px;
+    left: 1102px;
+    gap: 0px;
+    border-radius: 32px;
+    border: 2px solid #DCDCDC;
+    margin-top: 70px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+.applyFilter{
+    border-radius: 16px;
+    width: 40%;
+    padding: 10px;
+    background: green;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    font-family: DannaMedium;
+    color: white;
+}
+.filter > div{
+    width: 100%;
+}
+.Flex{
+    display: flex;
+    gap: 8px;
+}
+.applyFilter2{
+    border-radius: 16px;
+    width: 100px;
+    padding: 10px;
+    background: green;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    font-family: DannaMedium;
+    color: white;
+    opacity: 0.5;
+}
+
+.deleteFilter{
+    border-radius: 16px;
+    width: 40%;
+    padding: 10px;
+    background: red;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    font-family: DannaMedium;
+    color: white;
+}
+.filterTitle{
+    font-family: DannaBold;
+    font-size: 24px;
+    line-height: 34.32px;
+ text-align: right;
+    color: #2F2F2F;
+    margin-bottom: 15px;
+}
+.filterText{
+    font-family: DannaMedium;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #2F2F2F;
+
+}
+.filterInput{
+    background-color: #F1F1F1;
+    width: 100%;
+    border-radius: 16px;
+    padding: 14px;
+    gap: 8px;
+    font-family: DannaMedium;
+    font-size: 12px;
+    line-height: 20.02px;
+ text-align: right;
+    color: #707070 !important;
+    outline: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.filterCategory{
+    width: 100%;
+    height: auto;
+    background: #F1F1F1;
+    color: #707070;
+    font-size: 12px;
+    padding: 15px;
+    font-family: DannaMedium;
+ text-align: right;
+    border-radius: 16px;
+    direction: rtl;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.filterDetail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+    position: relative;
+}
+.filterTextImg{
+    width: 30px;
+    height: 30px;
+    background-size: 25px;
+}
+.filterImgSearch{
+    background: url(https://img.icons8.com/?size=100&id=132&format=png&color=000000) no-repeat 90% 50%;
+    background-size: 25px;
+}
+.filterImgCategory{
+    background: url(https://img.icons8.com/?size=100&id=nkCNPELCzMa7&format=png&color=000000) no-repeat 90% 50%;
+    background-size: 25px;
+}
+.filterImgDate{
+    background: url(https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=000000) no-repeat 90% 50%;
+    background-size: 25px;
+}
+.category{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    width: 100%;
+    display: block;
+    padding: 10px 15px 10px 15px;
+ text-align: right;
+    font-family: DannaMedium;
+    color: black;
+    font-size: 14px;
+}
+.searchBox{
+    width: 50px;
+    height: 48px;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    border-radius: 16px;
+    background: #3772FF url(../../../assets/Images/icons8-search-30white.png) 50% 50% no-repeat;
+    background-size: 50%;
+}
+.arrowDown{
+    width: 20px;
+    height: 20px;
+    background: url(../../../assets/Images/arrow down.png);
+    background-size: cover;
+}
+.arrowUp{
+    width: 20px;
+    height: 20px;
+    background: url(../../../assets/Images/arrow up.png);
+    background-size: cover;
+}
+.input{
+    display: none;
+}
+.input:checked + label {
+    font-size: 15px;
+    font-family: DannaBold;
+}
+.filterBox{
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background: rgb(178, 178, 178);
+}
+
+
+@media screen and (max-width: 900px) {
+    .filter{
+        display: none;
+    }
+}

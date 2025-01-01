@@ -1,0 +1,177 @@
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+.inputHolders{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-right: 20px;
+}
+.inputs{
+    outline: 0 none;
+    width: 362px;
+    background: white;
+    font-size: 14px;
+    font-family: DannaMedium;
+    text-align: right;
+    color: #707070;
+    padding: 2px;
+}
+.send:active{
+    scale: 1.1;
+}
+.send{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background: #3772FF url("https://img.icons8.com/?size=100&id=TbpCBFVQVHZA&format=png&color=ffffff") 50% 50% no-repeat;
+    background-size: 60%;
+    cursor: pointer;
+}
+.borderG{
+    border-bottom: 2px solid #DCDCDC;
+}
+.addCommentInput{
+    display: flex;
+    justify-content: right;
+    direction: ltr;
+    align-items: center;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    width: 490px;
+    border: 1px solid #3772FF;
+    z-index: 10000;
+    background: white;
+    border-radius: 24px;
+    padding: 10px;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+.close:active{
+    scale: 1.1;
+}
+.close{
+    cursor: pointer;
+    width: 101px;
+    height: 40px;
+    border: 1px solid #FF5353;
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF0000;
+    font-size: 18px;
+    font-family: DannaMedium;
+    gap: 5px;
+}
+.closeIcon{
+    background: url(https://img.icons8.com/?size=16&id=82771&format=png&color=FF0000);
+    width: 16px;
+    height: 16px;
+}
+.titleBlog{
+    font-family: DannaBold;
+    color: #707070;
+    font-size: 18px;
+}
+.titleModal{
+    color: #2F2F2F;
+    font-size: 24px;
+    font-family: DannaBold;
+}
+.titleHolder{
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.yourCommentHodler{
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+.addComment:active{
+    scale: 1.1;
+}
+.addComment{
+    cursor: pointer;
+    width: 107px;
+    height: 40px;
+    background: #3772FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: DannaMedium;
+    color: white;
+}
+.addCommentIcon{
+    width: 24px;
+    height: 24px;
+    background: url(../../../../../../assets/Images/add-message.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+.addYourComment{
+    width: 490px;
+    height: 72px;
+    border-radius: 24px;
+    border: 1px solid #3772FF;
+    position: fixed;
+    bottom: 50px;
+    left: 200px;
+    background: white;
+}
+@media screen and (max-width: 507px) {
+    .addCommentInput{
+        width: 90%;
+    }
+    .inputHolders,.inputs {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 592px) {
+    .titleBlog{
+        display: none;
+    }
+    .titleModal {
+        width: 100%;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 592px) {
+    .titleBlog{
+        display: none;
+    }
+    .titleModal {
+        width: 100%;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 278px) {
+    .titleModal {
+        width: 70px;
+    }
+}

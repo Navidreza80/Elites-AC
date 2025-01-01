@@ -1,0 +1,85 @@
+.container{
+    width: 100%;
+    z-index: 100;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+.holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    width: 50%;
+}
+.categories {
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
+    border: 1px solid #2F2F2F;
+    border-radius: 34px;
+    width: auto;
+    color: #2F2F2F;
+    font-size: 18px;
+    font-family: DannaMedium;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.categories:active {
+    scale: 1.1;
+}
+
+.clearSort {
+    background: url(https://img.icons8.com/?size=100&id=71202&format=png&color=000000) 50% 50% no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.clearSort:active {
+    scale: 1.1;
+}
+
+.selected {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 34px;
+    width: auto;
+    color: red;
+    font-size: 18px;
+    font-family: DannaMedium;
+    line-height: 35px;
+}
+
+.closeBtn{
+    width: 101px;
+    height: 40px;
+    border: 1px solid #FF5353;
+    border-radius: 32px;
+    color: #FF5353;
+    font-family: DannaMedium;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-bottom: 10px;
+}

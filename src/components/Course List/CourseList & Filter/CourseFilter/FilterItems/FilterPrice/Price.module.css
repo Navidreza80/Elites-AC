@@ -1,0 +1,35 @@
+.priceInput{
+    width: 100%;
+}
+.value{
+    color: #272727;
+    font-family: DannaMedium;
+}
+.titlePrice{
+    color: #2F2F2F;
+    font-size: 16px;
+    font-family: DannaMedium;
+    width: 80%;
+    padding-right: 5px;
+ text-align: right;
+}
+
+.holderIconAndTitle{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
+    direction: rtl;
+}
+
+.valueHolder{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+
+.fromTo{
+    color: #787878;
+    font-family: DannaMedium;
+}

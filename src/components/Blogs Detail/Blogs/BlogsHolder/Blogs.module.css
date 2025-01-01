@@ -1,0 +1,43 @@
+.title{
+    width: 100%;
+    line-height: 170px;
+    height: 100px;
+ text-align: right;
+    font-family: DannaBold;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #707070;
+    animation: visible linear forwards;
+}
+
+.slider{
+    width: 95%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.arrowLeft::before{
+    display: none !important;
+}
+.arrowRight::before{
+    display: none !important;
+}
+.arrowRight{
+    background: url("https://img.icons8.com/?size=100&id=100530&format=png&color=000000") !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: cover !important;
+}
+.arrowLeft{
+    background: url("https://img.icons8.com/?size=100&id=101310&format=png&color=000000") !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: cover !important;
+    left: -40px !important;
+}

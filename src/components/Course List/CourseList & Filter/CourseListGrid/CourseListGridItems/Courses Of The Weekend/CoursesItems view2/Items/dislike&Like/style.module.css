@@ -1,0 +1,23 @@
+.holder{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like,.dislike{
+    font-size: 16px;
+    font-family: DannaBold;
+    color: #5E5E5E;
+    width: auto;
+ text-align: right;
+    direction: rtl;
+}
+
+@media screen and (max-width: 583px) {
+    .holder{
+        display: none;
+    }
+}

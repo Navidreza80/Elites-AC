@@ -1,0 +1,15 @@
+.container{
+    width: 94.444444444%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+

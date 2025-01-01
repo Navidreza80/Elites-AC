@@ -1,0 +1,44 @@
+.holder{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 32px;
+}
+.holderP{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.holderGap{
+    gap: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+ .span{
+    width: 100%;
+    color: black;
+ text-align: right;
+    font-size: 13pt;
+    font-weight: 600; 
+    font-family: DannaBold;
+} 
+p{
+
+    font-family: DannaNormal;
+    color: #3a3a3a;
+    font-size: 11pt;
+    font-weight: 600;
+}
+@media screen and (max-width: 1412px) {
+    .holder{
+        gap: 15px;
+    }
+}

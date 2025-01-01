@@ -1,0 +1,86 @@
+.user{
+    width: 64px;
+    height: 40px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    background: url(https://img.icons8.com/?size=100&id=39786&format=png&color=FFFFFF) no-repeat 50% 50%;
+    background-size: 50%;
+}
+
+.userAccebility{
+    padding: 10px 10px 0 10px;
+    width: 160px;
+    height: auto;
+    background: #2F2F2F;
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.315);
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    z-index: 1000000000000000000000000000000000000000000000;
+    border-radius: 5px;
+}
+
+.items{
+ text-align: right;
+    font-family: DannaBold;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    animation: none;
+    transition: 0.5s;
+}
+.items:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    text-shadow: 1px 1px 10px white;
+}
+.holder{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.fixed{
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+}
+
+@keyframes hoverAnimation{
+    25%{
+        left: 10px;
+        top: 0;
+    }
+    50%{
+        left: 0;
+        top: 10px;
+    }
+    75%{
+        left: -10px;
+        top: 0;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}

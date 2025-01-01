@@ -1,0 +1,36 @@
+.landingDark{
+    background-color: #141414;
+    color: #fff;
+}
+.Button{
+    background-color: #e5e5e5 !important;
+    color: #2f2f2f !important;
+}
+.text,.bigText,.mentors,.juniors,.title{
+    color: #f1f1f1 !important;
+}
+.smallText,.description{
+    color: #b3b3b3 !important;
+}
+.holder{
+    border: 2px solid #6e6e6e !important;
+    cursor: pointer;
+}
+.holder:hover{
+  border: 2px solid #3772FF !important;  
+}
+.holderService{
+    background-color: #484848 !important;
+    border: 2px solid #6e6e6e !important;
+}
+.holderService:hover,div:hover > .imageHolder{
+    border: 2px solid #3772FF !important;
+}
+.imageHolder{
+    background-color: #292929 !important;
+    border: 2px solid #6e6e6e !important;
+}
+.desc{
+    color: #a8a8a8 !important;
+}
+

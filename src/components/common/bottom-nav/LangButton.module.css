@@ -1,0 +1,111 @@
+.Language{
+    height: 48px;
+    width: 55px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    color: black;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+}
+.pencil{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: orange url("https://img.icons8.com/?size=100&id=49&format=png&color=ffffff") 50% 50% no-repeat;
+    background-size: 50%;
+    border: 1px solid #ccc;
+        z-index: 1;
+        position: relative;
+}
+.theme1{
+    width: 20px;
+    height: 20px;
+    background: #6C0345;
+    border-radius: 100%;
+}
+.theme2{
+    width: 20px;
+    height: 20px;
+    background: #1F4529;
+    border-radius: 100%;
+}
+.theme3{
+    width: 20px;
+    height: 20px;
+    background: #181C14;
+    border-radius: 100%;
+}
+.theme4{
+    width: 20px;
+    height: 20px;
+    background: #89A8B2;
+    border-radius: 100%;
+}
+.theme5{
+    width: 20px;
+    height: 20px;
+    background: #7469B6;
+    border-radius: 100%;
+}
+.theme6{
+    width: 20px;
+    height: 20px;
+    background: #202020;
+    border-radius: 100%;
+}
+.holderPalette{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    flex-flow: row wrap;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 55px;
+}
+.Language > option{
+    margin-top: -4px;
+}
+.holder{
+    width: 91px;
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999999999999999999999;
+    border-radius: 50px;
+}
+.holder2{
+    position: relative;
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin-bottom: 10px;
+}
+.DarkAndLangButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #ffffff url(https://img.icons8.com/?size=100&id=82535&format=png&color=000000)no-repeat 50% 50%;
+    background-size: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 0 5px 2px #5d5d5d;
+}
+.DarkAndLangButton:hover{
+    background-size: 60%;
+    transition: 0.5s;
+}
+.DarkAndLangButton ~ Label ,.DarkAndLangButton ~ select{
+    transition: 0.1s;
+}
+

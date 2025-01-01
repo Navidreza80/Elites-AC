@@ -1,0 +1,123 @@
+
+.holderCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+}
+.InputSearchHolder{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+}
+.InputSearchModal{
+    width: 70%;
+    background: #eeeeee;
+    border: 1px solid #bdbdbd;
+    height: 40px;
+    border-radius: 100px;    
+    text-align: right;
+    padding: 10px;
+}
+.Card{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+}
+.Card> .CardBottom{
+    border-top: 2px solid #0077ff;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    color: #0077ff;
+    font-family: DannaBold;
+    font-family: 17px;
+    cursor: pointer;
+}
+.CardBody{
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    height: 150px;
+}
+.CardBody>img{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.CardBody>div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    max-width: 430px;
+}
+.CardBody>div>div{
+    width: 100%;
+    color: #2f2f2f;
+    text-align: right;
+}
+.CardTitle{
+    font-size: 17px;
+    font-family: DannaBold;
+}
+.CardDesc{
+    font-size: 15px;
+    font-family: DannaDemiBold;
+}
+@media screen and (max-width: 468px) {
+    .Card{
+        width: 100%;
+        height: 300px;
+    }
+    .CardBody {
+        flex-flow: row wrap;
+        height: 250px;
+    }
+    .CardBody>img {
+        width: 100%;
+        height: 200px;
+    }
+    .CardBody>div {
+        width: 100%;
+    }
+    .CardTitle,.CardDesc{
+        width: 100% !important;
+        text-align: center !important;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (max-width: 274px) {
+    .Card{
+        width: 100%;
+        height: 300px;
+    }
+    .CardBody {
+        flex-flow: row wrap;
+        height: 250px;
+    }
+    .CardBody>img {
+        width: 100%;
+        height: 150px;
+    }
+    .CardBody>div {
+        height: 50px;
+    }
+    .CardTitle{
+        font-size: 15px;
+        height: 24px; 
+
+    }
+    .CardDesc{
+        font-size: 13px;
+        height: 20px;
+    }
+}

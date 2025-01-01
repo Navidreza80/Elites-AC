@@ -1,0 +1,71 @@
+.holder{
+    width: 100%;
+    min-width: 270px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.holder > img{
+    width: 8%;
+    height: 52px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 22.88px;
+    margin-top: 12px;
+}
+.closeAndViewHolder{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+}
+.View{
+    background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=000000") no-repeat 0% 50%;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 22.88px;
+    margin-top: 12px;
+}
+.Book{
+    background: url("https://img.icons8.com/?size=100&id=42763&format=png&color=000000") no-repeat 0% 50%;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 22.88px;
+    margin-top: 12px;
+}
+.Close{
+    background: url("https://img.icons8.com/?size=100&id=8112&format=png&color=FF5353") no-repeat 0% 50%;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 22.88px;
+    margin-top: 12px;
+}
+.holder > div{
+    font-size: 16px;
+    line-height: 55px;
+    
+    margin-top: 12px;
+}
+/* @media screen and (max-width: 1003px) {
+    .holder{
+        justify-content: right;
+        gap: 50px;
+    }
+    .holder > div:nth-child(2){
+    width: 20%;
+    }
+    .level{
+        width: 15%;
+    }
+}
+@media screen and (max-width: 491px) {
+    .holder > div:nth-child(2){
+        width: 300px;
+    }
+} */

@@ -1,0 +1,11 @@
+.holder{
+    width: 431px;
+    height: 365px;
+}
+
+@media screen and (max-width: 982px) {
+    .holder{
+        width: 322px;
+        height: 292px;
+    }
+}

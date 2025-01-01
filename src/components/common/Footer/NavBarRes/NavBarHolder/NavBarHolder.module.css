@@ -1,0 +1,34 @@
+.NavBar {
+    width: 700px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (max-width: 1328px) {
+    .NavBar {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .NavBar {
+        gap: 15px;
+
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .NavBar {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        gap: 40px;
+        flex-flow: row wrap;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}

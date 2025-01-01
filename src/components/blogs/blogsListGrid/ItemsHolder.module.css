@@ -1,0 +1,32 @@
+.holder{
+    width: 47.7%;
+    height: 365px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.holder > img{
+    height: 293px;
+}
+.holder > div:nth-child(2){
+    height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+    .holder{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 567px) {
+    .holder{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 427px) {
+    .holder{
+        width: 95%;
+    }
+}

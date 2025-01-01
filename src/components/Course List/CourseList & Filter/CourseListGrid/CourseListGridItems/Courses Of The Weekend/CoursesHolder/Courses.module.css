@@ -1,0 +1,24 @@
+.holder{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    row-gap: 50px;
+}
+
+@media screen and (max-width: 543px) {
+    .holder{
+        justify-content: center;
+    }
+}
+
+.title{
+    font-size: 32px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+    text-align: center;
+    width: 100%;
+    line-height: 130px;
+}

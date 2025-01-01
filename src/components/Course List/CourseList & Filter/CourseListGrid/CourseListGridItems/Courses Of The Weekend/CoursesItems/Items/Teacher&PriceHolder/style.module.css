@@ -1,0 +1,43 @@
+.holder{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.teacher{
+    font-size: 14px;
+    font-family: DannaMedium;
+    color: #707070;
+    width: auto;
+ text-align: right;
+}
+
+.price{
+    font-size: 16px;
+    font-family: DannaBold;
+    color: #2F2F2F;
+    width: auto;
+ text-align: right;
+    direction: rtl;
+}
+
+@media screen and (max-width: 1116px) {
+    .price{
+        font-size: 10px;
+    }
+    .teacher{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .price{
+        font-size: 16px;
+    }
+    .teacher{
+        font-size: 14px;
+    }
+}

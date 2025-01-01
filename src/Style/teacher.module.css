@@ -1,0 +1,104 @@
+.page {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1rem;
+    direction: rtl;
+}
+
+.page2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titleHolder {
+    margin-top: 110px;
+    margin-bottom: 100px;
+    direction: rtl;
+    width: 100%;
+}
+
+.title {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: DannaBold;
+    text-align: center;
+}
+
+.p {
+    color: rgb(103, 103, 103);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: DannaBold;
+    text-align: center;
+}
+
+.inputHolder {
+    height: 100%;
+    width: 31%;
+    border-radius: 32px;
+    border: 2px solid #DCDCDC;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 10px;
+}
+
+.inputHolder>h1 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+  text-align: right;
+    width: 100%;
+    font-family: DannaBold;
+}
+
+.inputHolder>div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inputHolder>div>h2 {
+    width: 100%;
+  text-align: right;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: DannaBold;
+}
+
+.input {
+    width: 100%;
+    border-radius: 20px;
+    background: #dddddd;
+    color: #4d4d4d;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: DannaBold;
+    padding: 10px 20px;
+    border: 2px solid #727272;
+  text-align: right;
+
+}
+
+.input::placeholder {
+    color: #4d4d4d;
+}
+
+@media screen and (max-width: 500px) {
+    .page2 {
+        width: 100%;
+    }
+}

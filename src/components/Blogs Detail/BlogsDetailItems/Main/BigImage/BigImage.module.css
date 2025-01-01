@@ -1,0 +1,21 @@
+.image{
+    width: 47.20588235294118%;
+    height: 100%;
+    border-radius: 32px;
+}
+
+@media screen and (max-width: 1077px) {
+    .image{
+        width: 60%;
+        height: 300px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .image{
+        width: 100%;
+        height: 424px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+.holder{
+    width: 23.60%;
+    height: 100%;
+    background: white;
+    border: 2px solid #DCDCDC;
+    border-radius: 24px;
+    direction: rtl;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    margin-top: 0;
+    position: relative;
+    top: 400px;
+    rotate: -180deg;
+    animation: visible linear forwards;
+    animation-timeline: view();
+    animation-range:  entry 100px;
+    transition: 0.3s;
+}
+.holder:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+@keyframes visible{
+    to {
+        top: 0;
+        rotate: 0deg
+    }
+}
+
+.holder:hover{
+    border: 2px solid #3772FF;
+}
+
+@media screen and (max-width: 900px) {
+    .holder{
+        width: 361px;
+        height: 434px;
+    }
+}

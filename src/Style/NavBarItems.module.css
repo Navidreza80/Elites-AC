@@ -1,0 +1,123 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: DannaMedium;
+}
+.holderMiniBasketOveral{
+    overflow: hidden;
+}
+.titleMiniBasketCount{
+    font-family: DannaMedium;
+    color: black;
+    font-size: 15px;
+    text-align: right;
+}
+
+.selected {
+    background: url(../assets/Images/icons8-dot-24.png) 50% 90% no-repeat;
+    background-size: 8px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.items {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7px 0 7px;
+    transition: 0.5s;
+}
+
+.items:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    text-shadow: 1px 1px 10px white;
+}
+
+.miniBasketHolder {
+    position: relative;
+    border: 1px solid #DCDCDC;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background: url(https://img.icons8.com/?size=100&id=0DBkCUANmgoQ&format=png&color=000000) no-repeat 50% 50%;
+    background-size: 60%;
+}
+
+.miniBasket {
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.miniBasketItems{
+    height: 350px;
+    padding:0 20px;
+    width: 100%;
+    overflow-y: scroll;
+    border: 1px solid #919191;
+    border-radius: 8px;
+}
+
+.buttonHolder{
+    display: flex;
+    justify-content: right;
+}
+.button{
+    background-color: rgb(0, 106, 255);
+    color: #fff;
+    text-align: right;
+    border-radius: 32px;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-family: DannaMedium;
+}
+
+.button:hover{
+    color: #fff;
+}
+.imgMiniBasket{
+    width: 100px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.titleAndPrice {
+    color: #000000;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 10px;
+}
+
+.holderReserve{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    direction: rtl;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price,
+.title {
+    width: 150px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: DannaMedium;
+}

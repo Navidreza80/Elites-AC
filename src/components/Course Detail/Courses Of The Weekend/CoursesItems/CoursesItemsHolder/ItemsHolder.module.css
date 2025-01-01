@@ -1,0 +1,8 @@
+.holder{
+    width: 322px;
+    height: 366px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+}

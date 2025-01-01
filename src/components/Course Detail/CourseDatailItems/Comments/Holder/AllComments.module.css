@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    flex-flow: row wrap;
+    margin-top: 50px;
+}
+.add{
+    background: url(../../../../../assets/Images/add-message.png) 50% 50% no-repeat;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.bigText{
+    color: white;
+    font-size: 18px;
+    font-family: DannaDemiBold;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.smallText{
+    color: white;
+    font-size: 14px;
+    font-family: DannaMedium;
+    margin: auto;
+    text-align: center;
+}
+.addComment{
+    background: #3772FF;
+    width: 324px;
+    height: 282px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.title{
+    width: 100%;
+    color: #707070;
+    font-family: DannaBold;
+    font-size: 20px;
+ text-align: right;
+    margin: 10px 0 20px 0;
+}

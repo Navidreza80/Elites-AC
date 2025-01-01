@@ -1,0 +1,19 @@
+.logo{
+    width: 300px;
+    height: 70px;
+}
+
+.backBtn{
+    width: 120px;
+    height: 37px;
+    font-family: DannaBold;
+    color: black;
+    position: absolute;
+    top: 100;
+    user-select: none;
+    cursor: pointer;
+    right: 0;
+    font-size: 24px;
+ text-align: right;
+    background: url(../../../../../assets/Images/icons8-back-24.png) no-repeat 90% 50%;
+}

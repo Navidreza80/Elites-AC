@@ -1,0 +1,19 @@
+.title{
+    color: #2F2F2F;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: DannaBold;
+}
+
+@media screen and (max-width: 1207px) {
+    .title{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title{
+        font-size: 20px;
+    }
+}

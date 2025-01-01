@@ -1,0 +1,94 @@
+.containerComment{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    padding: 15px;
+    height: 200px;
+}
+
+.header{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+}
+
+.avatar{
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.column{
+    width: auto;
+    display: flex;
+    flex-flow: column wrap;
+    width: 93px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.userName{
+    font-family: DannaMedium;
+    font-size: 14px;
+    width: 100%;
+    color: #2F2F2F;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.date{
+    width: 100%;
+    font-family: DannaNormal;
+    color: #707070;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.title{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #2F2F2F;
+    font-family: DannaBold;
+    font-size: 16px;
+}
+
+.description{
+    width: 100%;
+    font-size: 14px;
+    font-family: DannaNormal;
+    color: #2F2F2F;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    height: 24px;
+}
+
+.count{
+    font: 14px;
+    color: #2F2F2F;
+    font-family: DannaNormal;
+}

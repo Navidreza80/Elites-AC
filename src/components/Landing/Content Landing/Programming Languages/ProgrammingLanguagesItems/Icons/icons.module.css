@@ -1,0 +1,78 @@
+.html{
+    width: 95px;
+    height: 95px;
+    background: url("../../../../../../assets/Images/html.png") 50% 50% no-repeat;
+    background-size: 70%;
+    transform: rotate(9.2deg);
+    position: relative;
+}
+
+.css{
+    width: 95px;
+    height: 95px;
+    background: url("../../../../../../assets/Images/css.png") 50% 50% no-repeat;
+    background-size: 70%;
+    transform: rotate(-15.61deg);
+    position: relative;
+}
+
+.js{
+    width: 95px;
+    height: 95px;
+    background: url("../../../../../../assets/Images/js.png") 50% 50% no-repeat;
+    background-size: 70%;
+    position: relative;
+}
+
+.react{
+    width: 95px;
+    height: 95px;
+    background: url("../../../../../../assets/Images/react.png") 50% 50% no-repeat;
+    background-size: 70%;
+    transform: rotate(-15.47deg);
+    position: relative;
+}
+
+.figma{
+    width: 95px;
+    height: 95px;
+    background: url("../../../../../../assets/Images/figma.png") 50% 50% no-repeat;
+    background-size: 70%;
+    transform: rotate(14.68deg);
+    position: relative;
+}
+
+@media screen and (max-width: 488px) {
+    .figma{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .react{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .js{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .css{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .html{
+        width: 65px;
+        height: 65px;
+    }
+}

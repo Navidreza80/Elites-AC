@@ -1,0 +1,23 @@
+.container {
+    width: auto;
+    height: 47px;
+    flex-flow: row nowrap;
+    border-radius: 56px;
+    background: #2F2F2F;
+    align-items: center;
+    padding: 2px 20px 2px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 975px) {
+    .container{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        display: none;
+    }
+}

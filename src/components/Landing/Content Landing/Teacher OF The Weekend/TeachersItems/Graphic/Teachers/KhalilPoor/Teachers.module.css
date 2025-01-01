@@ -1,0 +1,52 @@
+.holder{
+    width: 160px;
+    height: 200px;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.profile{
+    width: 104px;
+    height: 104px;
+    border-radius: 100%;
+    background: url(../../../../../../../../assets/Images/Khalilpoor.png) 50% 10% no-repeat;
+    background-size: 145%;
+    filter: grayscale(10);
+}
+
+.rank{
+    width: 40%;
+ text-align: right;
+    font-size: 20px;
+    font-family: DannaBold;
+    color: #FCFCFC;
+    background: url(../../../../../../../../assets/Images/icons8-medal-third-place-32.png) 5% 50% no-repeat;
+    background-size: 35px;
+}
+
+.name{
+    width: 100%;
+    font-family: DannaMedium;
+    font-size: 16px;
+    color: #FCFCFC;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .holder{
+        top: 700px;
+        left: 240px;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .holder{
+        top: 700px;
+        left: 110px;
+    }
+}

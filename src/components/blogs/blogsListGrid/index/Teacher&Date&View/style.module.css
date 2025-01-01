@@ -1,0 +1,46 @@
+.holder{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.ViewAndDateHolder{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.date,.view,.teacher{
+    font-size: 14px;
+    font-family: DannaDemiBold;
+    font-family: DannaMedium;
+    line-height: 20.02px;
+ text-align: right;
+    color: #707070;
+}
+.date{
+    background: url("https://img.icons8.com/?size=100&id=BCKAW92AuElD&format=png&color=000000") no-repeat 0% 50%;
+    background-size: 18px;
+    padding-left: 20px;
+}
+.view{
+    background: url("https://img.icons8.com/?size=100&id=85028&format=png&color=000000") no-repeat 0% 50%;
+    background-size: 18px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 1116px) {
+    .teacher,.date,.view{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .teacher,.date,.view{
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}

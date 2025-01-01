@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    height: auto;
+    flex-flow: row wrap;
+}
+.page{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 2rem;
+    direction: rtl;
+    height: 100%;
+}
+.page2{
+    width: 100%;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.title{
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: DannaBold;
+  text-align: right;
+    border-bottom: 0.5px solid #cccccc;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .page2{
+        width: 100%;
+    }
+}
